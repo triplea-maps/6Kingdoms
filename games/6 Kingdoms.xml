@@ -1,0 +1,1772 @@
+﻿<?xml version="1.0" ?>
+<!DOCTYPE game SYSTEM "game.dtd">
+<game>
+        <info name="6 Kingdoms" version="1.5"/>
+        <loader javaClass="games.strategy.triplea.TripleA"/>
+        <map>
+                <!-- Territory Definitions -->
+                <territory name="Uthgard"/>
+                <territory name="Razor Pass"/>
+                <territory name="Dragonfire Coast"/>
+                <territory name="Gandar"/>
+                <territory name="Burusia"/>
+                <territory name="Kahnbrek"/>
+                <territory name="Nation of Krom"/>
+                <territory name="Gelvazar"/>
+                <territory name="Dragonfire Sea East SZ" water="true"/>
+                <territory name="Burning Shores"/>
+                <territory name="The Ghostly Gulf SZ" water="true"/>
+                <territory name="Develar's Lake"/>
+                <territory name="Last Respite"/>
+                <territory name="Tobruk"/>
+                <territory name="Dark Forest"/>
+                <territory name="Moonwood"/>
+                <territory name="Yormuska"/>
+                <territory name="Hammerfast"/>
+                <territory name="Evershine Sea Lower South SZ" water="true"/>
+                <territory name="Rimms Pass"/>
+                <territory name="Ulfur's Keep"/>
+                <territory name="Evershine Sea SZ" water="true"/>
+                <territory name="Bayridge Mountains"/>
+                <territory name="Ibadeth City"/>
+                <territory name="Dragonback Hills"/>
+                <territory name="Kelgar's Pass"/>
+                <territory name="Troll Bog"/>
+                <territory name="Golgatha"/>
+                <territory name="Avinosh"/>
+                <territory name="Evershine Mountains"/>
+                <territory name="The Ghostly Gulf NW SZ" water="true"/>
+                <territory name="Sea of Kahnbrek Southern SZ" water="true"/>
+                <territory name="Ramathorn"/>
+                <territory name="Greenvale"/>
+                <territory name="Sea of Kahnbrek South SZ" water="true"/>
+                <territory name="Dale Lands"/>
+                <territory name="Kingdom of Druj"/>
+                <territory name="Barbaric Ocean East SZ" water="true"/>
+                <territory name="Gerison"/>
+                <territory name="Barbaric Ocean North SZ" water="true"/>
+                <territory name="Mosquito Marsh"/>
+                <territory name="Evershine Sea Southern SZ" water="true"/>
+                <territory name="Igthorn's Pass"/>
+                <territory name="Ocean of Blades North SZ" water="true"/>
+                <territory name="Kaligistan"/>
+                <territory name="Dragonfire Sea Eastern SZ" water="true"/>
+                <territory name="The Northern Keep"/>
+                <territory name="Port Elgeth"/>
+                <territory name="Ocean of Blades Northern SZ" water="true"/>
+                <territory name="Egress Forest"/>
+                <territory name="Lonely Plains East"/>
+                <territory name="Barbaric Ocean SZ" water="true"/>
+                <territory name="Pools of Saysha"/>
+                <territory name="Neberus"/>
+                <territory name="Whispering Wood"/>
+                <territory name="Marafashan"/>
+                <territory name="Ophan'Kes"/>
+                <territory name="Reopulus"/>
+                <territory name="Pulunar"/>
+                <territory name="Trollmoors South"/>
+                <territory name="Evershine Sea East SZ" water="true"/>
+                <territory name="Scorched Sands"/>
+                <territory name="Evershine Mountains East"/>
+                <territory name="Lonely Plains West"/>
+                <territory name="Ocean of Blades SZ" water="true"/>
+                <territory name="Evershine Sea Eastern SZ" water="true"/>
+                <territory name="Splendid City"/>
+                <territory name="The Blightlands"/>
+                <territory name="Temple of the Dragon"/>
+                <territory name="Serpent's Spine Mountains South"/>
+                <territory name="Dark Waters East SZ" water="true"/>
+                <territory name="Valgorath"/>
+                <territory name="Valley of the Fang"/>
+                <territory name="Vidor"/>
+                <territory name="Ocean of Blades Southwest SZ" water="true"/>
+                <territory name="The Venom Sea SZ" water="true"/>
+                <territory name="The Ghostly Gulf South SZ" water="true"/>
+                <territory name="Dragonfire Gulf SZ" water="true"/>
+                <territory name="Three Trader's City"/>
+                <territory name="Dragonfire Sea Western SZ" water="true"/>
+                <territory name="Sharktooth Villiage"/>
+                <territory name="High Ridge Caverns"/>
+                <territory name="Shyamaline's Folley"/>
+                <territory name="Endowyn"/>
+                <territory name="Tabletop Plateau"/>
+                <territory name="Restful Wood"/>
+                <territory name="Bellok"/>
+                <territory name="Dragonfire Sea SZ" water="true"/>
+                <territory name="Weeping Valley"/>
+                <territory name="Howling Canyon"/>
+                <territory name="The Haunted Island"/>
+                <territory name="Fearus Hills"/>
+                <territory name="Southpass Garrison"/>
+                <territory name="Waterbreak"/>
+                <territory name="Harold"/>
+                <territory name="Sea of Gandar SZ" water="true"/>
+                <territory name="Kingdom of the Sea Elves"/>
+                <territory name="The Mystic Lake"/>
+                <territory name="Cove of Storms SZ" water="true"/>
+                <territory name="Serpent's Spine Mountains"/>
+                <territory name="Evershine Mountains West"/>
+                <territory name="Sea of Gandar Western SZ" water="true"/>
+                <territory name="Dragonfire Sea West SZ" water="true"/>
+                <territory name="Serpent's  Spine Mountains North"/>
+                <territory name="Wolvesbane Forest"/>
+                <territory name="Castle Gandar"/>
+                <territory name="Longview"/>
+                <territory name="Barbaric Ocean Eastern SZ" water="true"/>
+                <territory name="Sea of Gandar Eastern SZ" water="true"/>
+                <territory name="Mozunrath's Tower"/>
+                <territory name="Ocean of Blades South SZ" water="true"/>
+                <territory name="Sea of Kahnbrek West SZ" water="true"/>
+                <territory name="Homeland of the Tribe of the Tiger"/>
+                <territory name="The Isle of Blades"/>
+                <territory name="Homeland of the Tribe of the Whale"/>
+                <territory name="Dragonscar Desert"/>
+                <territory name="Thorgrim"/>
+                <territory name="Troll Bog North"/>
+                <territory name="West Haven"/>
+                <territory name="Ocean of Blades Gulf SZ" water="true"/>
+                <territory name="Evershine Sea South SZ" water="true"/>
+                <territory name="Lonely Plains"/>
+                <territory name="Gulfport"/>
+                <territory name="Burning Oasis"/>
+                <territory name="Falconfall"/>
+                <territory name="Homeland of the Tribe of the Bear"/>
+                <territory name="Shem"/>
+                <territory name="Eastwatch"/>
+                <territory name="Eastern Lowlands"/>
+                <territory name="Barbaric Ocean Northern SZ" water="true"/>
+                <territory name="Semblek"/>
+                <territory name="The Tower of Xarxos"/>
+                <territory name="Morphimar's Keep"/>
+                <territory name="Evershine Mountains North"/>
+                <territory name="Dark Waters West SZ" water="true"/>
+                <territory name="Forbidding Peaks"/>
+                <territory name="WInd Rider Territory"/>
+                <territory name="Rolling Hills"/>
+                <territory name="Sea of Gandar East SZ" water="true"/>
+                <territory name="Sea of Kahnbrek SZ" water="true"/>
+                <territory name="Trollmoors North"/>
+                <territory name="Gerik's Hold"/>
+                <territory name="Screaming Wood"/>
+                <territory name="Jundland Wastes"/>
+                <territory name="Igna"/>
+                <territory name="Dragonback Mountains"/>
+                <territory name="Hidden Lake"/>
+                <territory name="Glimmering Forest"/>
+                <territory name="The Ghostly Gulf NE SZ" water="true"/>
+                <territory name="Loremaster's Library"/>
+
+<!-- Territory Connections -->
+<connection t1="Avinosh" t2="Dale Lands"/>
+<connection t1="Avinosh" t2="Develar's Lake"/>
+<connection t1="Avinosh" t2="Pools of Saysha"/>
+<connection t1="Avinosh" t2="Shem"/>
+<connection t1="Barbaric Ocean East SZ" t2="Barbaric Ocean Eastern SZ"/>
+<connection t1="Barbaric Ocean East SZ" t2="Eastwatch"/>
+<connection t1="Barbaric Ocean East SZ" t2="Mozunrath's Tower"/>
+<connection t1="Barbaric Ocean East SZ" t2="Sea of Gandar Western SZ"/>
+<connection t1="Barbaric Ocean Eastern SZ" t2="Barbaric Ocean SZ"/>
+<connection t1="Barbaric Ocean Eastern SZ" t2="Eastwatch"/>
+<connection t1="Barbaric Ocean Eastern SZ" t2="Uthgard"/>
+<connection t1="Barbaric Ocean North SZ" t2="Barbaric Ocean Northern SZ"/>
+<connection t1="Barbaric Ocean North SZ" t2="Evershine Mountains West"/>
+<connection t1="Barbaric Ocean North SZ" t2="Evershine Sea Lower South SZ"/>
+<connection t1="Barbaric Ocean North SZ" t2="Kingdom of the Sea Elves"/>
+<connection t1="Barbaric Ocean North SZ" t2="Neberus"/>
+<connection t1="Barbaric Ocean Northern SZ" t2="Barbaric Ocean SZ"/>
+<connection t1="Barbaric Ocean Northern SZ" t2="Cove of Storms SZ"/>
+<connection t1="Barbaric Ocean Northern SZ" t2="Neberus"/>
+<connection t1="Barbaric Ocean SZ" t2="Cove of Storms SZ"/>
+<connection t1="Bayridge Mountains" t2="Ibadeth City"/>
+<connection t1="Bayridge Mountains" t2="Lonely Plains West"/>
+<connection t1="Bayridge Mountains" t2="Shyamaline's Folley"/>
+<connection t1="Bayridge Mountains" t2="Tabletop Plateau"/>
+<connection t1="Bayridge Mountains" t2="The Ghostly Gulf NE SZ"/>
+<connection t1="Bayridge Mountains" t2="Trollmoors North"/>
+<connection t1="Bellok" t2="Evershine Mountains"/>
+<connection t1="Bellok" t2="Evershine Mountains East"/>
+<connection t1="Bellok" t2="Evershine Mountains North"/>
+<connection t1="Bellok" t2="Pools of Saysha"/>
+<connection t1="Bellok" t2="Ramathorn"/>
+<connection t1="Bellok" t2="Southpass Garrison"/>
+<connection t1="Bellok" t2="Yormuska"/>
+<connection t1="Burning Oasis" t2="Burning Shores"/>
+<connection t1="Burning Oasis" t2="Dragonback Hills"/>
+<connection t1="Burning Oasis" t2="Dragonscar Desert"/>
+<connection t1="Burning Oasis" t2="Jundland Wastes"/>
+<connection t1="Burning Oasis" t2="Scorched Sands"/>
+<connection t1="Burning Oasis" t2="Temple of the Dragon"/>
+<connection t1="Burning Shores" t2="Dragonfire Coast"/>
+<connection t1="Burning Shores" t2="Dragonfire Gulf SZ"/>
+<connection t1="Burning Shores" t2="Jundland Wastes"/>
+<connection t1="Burning Shores" t2="Marafashan"/>
+<connection t1="Burning Shores" t2="Scorched Sands"/>
+<connection t1="Burusia" t2="Evershine Sea Eastern SZ"/>
+<connection t1="Burusia" t2="Evershine Sea SZ"/>
+<connection t1="Burusia" t2="Evershine Sea Southern SZ"/>
+<connection t1="Burusia" t2="Hammerfast"/>
+<connection t1="Burusia" t2="Waterbreak"/>
+<connection t1="Castle Gandar" t2="Igthorn's Pass"/>
+<connection t1="Castle Gandar" t2="Splendid City"/>
+<connection t1="Castle Gandar" t2="Thorgrim"/>
+<connection t1="Cove of Storms SZ" t2="Neberus"/>
+<connection t1="Cove of Storms SZ" t2="Port Elgeth"/>
+<connection t1="Cove of Storms SZ" t2="Uthgard"/>
+<connection t1="Dale Lands" t2="Develar's Lake"/>
+<connection t1="Dale Lands" t2="Hammerfast"/>
+<connection t1="Dale Lands" t2="Waterbreak"/>
+<connection t1="Dark Forest" t2="Dark Waters West SZ"/>
+<connection t1="Dark Forest" t2="Dragonback Hills"/>
+<connection t1="Dark Forest" t2="Dragonback Mountains"/>
+<connection t1="Dark Forest" t2="Dragonfire Sea East SZ"/>
+<connection t1="Dark Forest" t2="Homeland of the Tribe of the Bear"/>
+<connection t1="Dark Forest" t2="Kingdom of Druj"/>
+<connection t1="Dark Forest" t2="WInd Rider Territory"/>
+<connection t1="Dark Waters East SZ" t2="Dark Waters West SZ"/>
+<connection t1="Dark Waters East SZ" t2="Mosquito Marsh"/>
+<connection t1="Dark Waters East SZ" t2="Sea of Kahnbrek West SZ"/>
+<connection t1="Dark Waters West SZ" t2="Dragonfire Sea East SZ"/>
+<connection t1="Dark Waters West SZ" t2="Eastern Lowlands"/>
+<connection t1="Dark Waters West SZ" t2="Homeland of the Tribe of the Bear"/>
+<connection t1="Dark Waters West SZ" t2="Rimms Pass"/>
+<connection t1="Develar's Lake" t2="Bellok"/>
+<connection t1="Develar's Lake" t2="Endowyn"/>
+<connection t1="Develar's Lake" t2="Pools of Saysha"/>
+<connection t1="Develar's Lake" t2="Yormuska"/>
+<connection t1="Dragonback Hills" t2="Dragonback Mountains"/>
+<connection t1="Dragonback Hills" t2="Dragonscar Desert"/>
+<connection t1="Dragonback Hills" t2="Temple of the Dragon"/>
+<connection t1="Dragonback Hills" t2="WInd Rider Territory"/>
+<connection t1="Dragonback Mountains" t2="Dragonfire Sea East SZ"/>
+<connection t1="Dragonback Mountains" t2="Temple of the Dragon"/>
+<connection t1="Dragonfire Coast" t2="Dragonfire Gulf SZ"/>
+<connection t1="Dragonfire Coast" t2="Dragonfire Sea SZ"/>
+<connection t1="Dragonfire Coast" t2="Dragonfire Sea Western SZ"/>
+<connection t1="Dragonfire Coast" t2="Scorched Sands"/>
+<connection t1="Dragonfire Gulf SZ" t2="Dragonfire Sea Western SZ"/>
+<connection t1="Dragonfire Gulf SZ" t2="Evershine Mountains North"/>
+<connection t1="Dragonfire Gulf SZ" t2="Golgatha"/>
+<connection t1="Dragonfire Gulf SZ" t2="Kaligistan"/>
+<connection t1="Dragonfire Gulf SZ" t2="Marafashan"/>
+<connection t1="Dragonfire Sea East SZ" t2="Dragonfire Sea Eastern SZ"/>
+<connection t1="Dragonfire Sea East SZ" t2="Temple of the Dragon"/>
+<connection t1="Dragonfire Sea Eastern SZ" t2="Dragonfire Sea SZ"/>
+<connection t1="Dragonfire Sea Eastern SZ" t2="Scorched Sands"/>
+<connection t1="Dragonfire Sea Eastern SZ" t2="Temple of the Dragon"/>
+<connection t1="Dragonfire Sea SZ" t2="Dragonfire Sea Western SZ"/>
+<connection t1="Dragonfire Sea SZ" t2="Scorched Sands"/>
+<connection t1="Dragonfire Sea West SZ" t2="Dragonfire Sea Western SZ"/>
+<connection t1="Dragonfire Sea West SZ" t2="Evershine Sea East SZ"/>
+<connection t1="Dragonfire Sea West SZ" t2="Sharktooth Villiage"/>
+<connection t1="Dragonfire Sea West SZ" t2="Shem"/>
+<connection t1="Dragonfire Sea Western SZ" t2="Golgatha"/>
+<connection t1="Dragonfire Sea Western SZ" t2="Sharktooth Villiage"/>
+<connection t1="Dragonscar Desert" t2="Egress Forest"/>
+<connection t1="Dragonscar Desert" t2="Jundland Wastes"/>
+<connection t1="Dragonscar Desert" t2="Three Trader's City"/>
+<connection t1="Dragonscar Desert" t2="WInd Rider Territory"/>
+<connection t1="Eastern Lowlands" t2="Dark Waters East SZ"/>
+<connection t1="Eastern Lowlands" t2="Mosquito Marsh"/>
+<connection t1="Eastern Lowlands" t2="Rimms Pass"/>
+<connection t1="Eastern Lowlands" t2="Rolling Hills"/>
+<connection t1="Eastwatch" t2="Mozunrath's Tower"/>
+<connection t1="Eastwatch" t2="Port Elgeth"/>
+<connection t1="Eastwatch" t2="Troll Bog"/>
+<connection t1="Eastwatch" t2="Uthgard"/>
+<connection t1="Eastwatch" t2="West Haven"/>
+<connection t1="Egress Forest" t2="Jundland Wastes"/>
+<connection t1="Egress Forest" t2="Last Respite"/>
+<connection t1="Egress Forest" t2="Three Trader's City"/>
+<connection t1="Endowyn" t2="Evershine Sea South SZ"/>
+<connection t1="Endowyn" t2="Evershine Sea Southern SZ"/>
+<connection t1="Endowyn" t2="Hammerfast"/>
+<connection t1="Endowyn" t2="Yormuska"/>
+<connection t1="Evershine Mountains" t2="Evershine Mountains East"/>
+<connection t1="Evershine Mountains" t2="Howling Canyon"/>
+<connection t1="Evershine Mountains" t2="Southpass Garrison"/>
+<connection t1="Evershine Mountains" t2="Ulfur's Keep"/>
+<connection t1="Evershine Mountains East" t2="Evershine Mountains North"/>
+<connection t1="Evershine Mountains East" t2="Homeland of the Tribe of the Tiger"/>
+<connection t1="Evershine Mountains East" t2="Restful Wood"/>
+<connection t1="Evershine Mountains East" t2="Ulfur's Keep"/>
+<connection t1="Evershine Mountains East" t2="Weeping Valley"/>
+<connection t1="Evershine Mountains North" t2="Golgatha"/>
+<connection t1="Evershine Mountains North" t2="Homeland of the Tribe of the Tiger"/>
+<connection t1="Evershine Mountains North" t2="Kaligistan"/>
+<connection t1="Evershine Mountains North" t2="Pools of Saysha"/>
+<connection t1="Evershine Mountains West" t2="Evershine Sea Lower South SZ"/>
+<connection t1="Evershine Mountains West" t2="Howling Canyon"/>
+<connection t1="Evershine Mountains West" t2="Kingdom of the Sea Elves"/>
+<connection t1="Evershine Mountains West" t2="Loremaster's Library"/>
+<connection t1="Evershine Sea East SZ" t2="Evershine Sea Eastern SZ"/>
+<connection t1="Evershine Sea East SZ" t2="Shem"/>
+<connection t1="Evershine Sea East SZ" t2="Waterbreak"/>
+<connection t1="Evershine Sea Eastern SZ" t2="Evershine Sea SZ"/>
+<connection t1="Evershine Sea Eastern SZ" t2="Waterbreak"/>
+<connection t1="Evershine Sea Lower South SZ" t2="Evershine Sea South SZ"/>
+<connection t1="Evershine Sea Lower South SZ" t2="Loremaster's Library"/>
+<connection t1="Evershine Sea SZ" t2="Evershine Sea Southern SZ"/>
+<connection t1="Evershine Sea South SZ" t2="Evershine Sea Southern SZ"/>
+<connection t1="Evershine Sea South SZ" t2="Ramathorn"/>
+<connection t1="Evershine Sea South SZ" t2="Yormuska"/>
+<connection t1="Evershine Sea Southern SZ" t2="Hammerfast"/>
+<connection t1="Falconfall" t2="Homeland of the Tribe of the Tiger"/>
+<connection t1="Falconfall" t2="Last Respite"/>
+<connection t1="Falconfall" t2="Nation of Krom"/>
+<connection t1="Falconfall" t2="Three Trader's City"/>
+<connection t1="Fearus Hills" t2="Glimmering Forest"/>
+<connection t1="Fearus Hills" t2="Longview"/>
+<connection t1="Fearus Hills" t2="The Blightlands"/>
+<connection t1="Fearus Hills" t2="Troll Bog North"/>
+<connection t1="Fearus Hills" t2="Whispering Wood"/>
+<connection t1="Forbidding Peaks" t2="Greenvale"/>
+<connection t1="Forbidding Peaks" t2="Mozunrath's Tower"/>
+<connection t1="Forbidding Peaks" t2="Sea of Gandar SZ"/>
+<connection t1="Forbidding Peaks" t2="Sea of Gandar Western SZ"/>
+<connection t1="Forbidding Peaks" t2="The Ghostly Gulf South SZ"/>
+<connection t1="Gandar" t2="Igthorn's Pass"/>
+<connection t1="Gandar" t2="Sea of Gandar Eastern SZ"/>
+<connection t1="Gandar" t2="Sea of Gandar SZ"/>
+<connection t1="Gandar" t2="Splendid City"/>
+<connection t1="Gandar" t2="The Ghostly Gulf South SZ"/>
+<connection t1="Gelvazar" t2="Kahnbrek"/>
+<connection t1="Gelvazar" t2="Pulunar"/>
+<connection t1="Gelvazar" t2="Rolling Hills"/>
+<connection t1="Gelvazar" t2="Sea of Kahnbrek Southern SZ"/>
+<connection t1="Gerik's Hold" t2="Gulfport"/>
+<connection t1="Gerik's Hold" t2="Longview"/>
+<connection t1="Gerik's Hold" t2="Restful Wood"/>
+<connection t1="Gerik's Hold" t2="The Blightlands"/>
+<connection t1="Gerik's Hold" t2="The Ghostly Gulf NW SZ"/>
+<connection t1="Gerik's Hold" t2="Weeping Valley"/>
+<connection t1="Gerison" t2="Ocean of Blades North SZ"/>
+<connection t1="Gerison" t2="Pulunar"/>
+<connection t1="Gerison" t2="Sea of Kahnbrek South SZ"/>
+<connection t1="Gerison" t2="The Tower of Xarxos"/>
+<connection t1="Gerison" t2="Wolvesbane Forest"/>
+<connection t1="Glimmering Forest" t2="Kingdom of the Sea Elves"/>
+<connection t1="Glimmering Forest" t2="Longview"/>
+<connection t1="Glimmering Forest" t2="Neberus"/>
+<connection t1="Glimmering Forest" t2="Ulfur's Keep"/>
+<connection t1="Glimmering Forest" t2="West Haven"/>
+<connection t1="Golgatha" t2="Pools of Saysha"/>
+<connection t1="Golgatha" t2="Sharktooth Villiage"/>
+<connection t1="Greenvale" t2="Gulfport"/>
+<connection t1="Greenvale" t2="Mozunrath's Tower"/>
+<connection t1="Greenvale" t2="The Ghostly Gulf South SZ"/>
+<connection t1="Greenvale" t2="Whispering Wood"/>
+<connection t1="Gulfport" t2="The Blightlands"/>
+<connection t1="Gulfport" t2="The Ghostly Gulf SZ"/>
+<connection t1="Gulfport" t2="The Ghostly Gulf South SZ"/>
+<connection t1="Gulfport" t2="Whispering Wood"/>
+<connection t1="Harold" t2="Nation of Krom"/>
+<connection t1="Harold" t2="Shyamaline's Folley"/>
+<connection t1="Harold" t2="The Ghostly Gulf NE SZ"/>
+<connection t1="Harold" t2="Three Trader's City"/>
+<connection t1="Hidden Lake" t2="Homeland of the Tribe of the Bear"/>
+<connection t1="Hidden Lake" t2="Kingdom of Druj"/>
+<connection t1="Hidden Lake" t2="Reopulus"/>
+<connection t1="Hidden Lake" t2="Screaming Wood"/>
+<connection t1="Hidden Lake" t2="Wolvesbane Forest"/>
+<connection t1="High Ridge Caverns" t2="Dark Waters East SZ"/>
+<connection t1="High Ridge Caverns" t2="Dark Waters West SZ"/>
+<connection t1="High Ridge Caverns" t2="Eastern Lowlands"/>
+<connection t1="Homeland of the Tribe of the Bear" t2="Kingdom of Druj"/>
+<connection t1="Homeland of the Tribe of the Bear" t2="Rimms Pass"/>
+<connection t1="Homeland of the Tribe of the Bear" t2="Rolling Hills"/>
+<connection t1="Homeland of the Tribe of the Tiger" t2="Kaligistan"/>
+<connection t1="Homeland of the Tribe of the Tiger" t2="Nation of Krom"/>
+<connection t1="Homeland of the Tribe of the Tiger" t2="Weeping Valley"/>
+<connection t1="Homeland of the Tribe of the Whale" t2="Lonely Plains East"/>
+<connection t1="Homeland of the Tribe of the Whale" t2="Ocean of Blades Gulf SZ"/>
+<connection t1="Homeland of the Tribe of the Whale" t2="Razor Pass"/>
+<connection t1="Homeland of the Tribe of the Whale" t2="Serpent's  Spine Mountains North"/>
+<connection t1="Howling Canyon" t2="Kingdom of the Sea Elves"/>
+<connection t1="Howling Canyon" t2="Southpass Garrison"/>
+<connection t1="Howling Canyon" t2="Ulfur's Keep"/>
+<connection t1="Ibadeth City" t2="Kingdom of Druj"/>
+<connection t1="Ibadeth City" t2="Lonely Plains"/>
+<connection t1="Ibadeth City" t2="Lonely Plains West"/>
+<connection t1="Ibadeth City" t2="Morphimar's Keep"/>
+<connection t1="Ibadeth City" t2="Reopulus"/>
+<connection t1="Ibadeth City" t2="Tabletop Plateau"/>
+<connection t1="Igna" t2="Ocean of Blades Gulf SZ"/>
+<connection t1="Igna" t2="Ocean of Blades SZ"/>
+<connection t1="Igna" t2="Ocean of Blades South SZ"/>
+<connection t1="Igna" t2="Ocean of Blades Southwest SZ"/>
+<connection t1="Igthorn's Pass" t2="Sea of Gandar Eastern SZ"/>
+<connection t1="Igthorn's Pass" t2="Vidor"/>
+<connection t1="Jundland Wastes" t2="Last Respite"/>
+<connection t1="Jundland Wastes" t2="Marafashan"/>
+<connection t1="Kahnbrek" t2="Mosquito Marsh"/>
+<connection t1="Kahnbrek" t2="Sea of Kahnbrek SZ"/>
+<connection t1="Kahnbrek" t2="Sea of Kahnbrek Southern SZ"/>
+<connection t1="Kahnbrek" t2="Sea of Kahnbrek West SZ"/>
+<connection t1="Kaligistan" t2="Last Respite"/>
+<connection t1="Kaligistan" t2="Marafashan"/>
+<connection t1="Kelgar's Pass" t2="Kingdom of Druj"/>
+<connection t1="Kelgar's Pass" t2="Shyamaline's Folley"/>
+<connection t1="Kelgar's Pass" t2="Tabletop Plateau"/>
+<connection t1="Kelgar's Pass" t2="Three Trader's City"/>
+<connection t1="Kelgar's Pass" t2="WInd Rider Territory"/>
+<connection t1="Kingdom of Druj" t2="Reopulus"/>
+<connection t1="Kingdom of Druj" t2="Tabletop Plateau"/>
+<connection t1="Kingdom of Druj" t2="WInd Rider Territory"/>
+<connection t1="Kingdom of the Sea Elves" t2="Neberus"/>
+<connection t1="Kingdom of the Sea Elves" t2="Ulfur's Keep"/>
+<connection t1="Last Respite" t2="Marafashan"/>
+<connection t1="Last Respite" t2="Three Trader's City"/>
+<connection t1="Lonely Plains" t2="Lonely Plains East"/>
+<connection t1="Lonely Plains" t2="Lonely Plains West"/>
+<connection t1="Lonely Plains" t2="Morphimar's Keep"/>
+<connection t1="Lonely Plains" t2="Serpent's  Spine Mountains North"/>
+<connection t1="Lonely Plains East" t2="Morphimar's Keep"/>
+<connection t1="Lonely Plains East" t2="Razor Pass"/>
+<connection t1="Lonely Plains East" t2="Serpent's  Spine Mountains North"/>
+<connection t1="Lonely Plains East" t2="Valgorath"/>
+<connection t1="Lonely Plains West" t2="Serpent's  Spine Mountains North"/>
+<connection t1="Lonely Plains West" t2="Trollmoors North"/>
+<connection t1="Lonely Plains West" t2="Trollmoors South"/>
+<connection t1="Longview" t2="Restful Wood"/>
+<connection t1="Longview" t2="The Blightlands"/>
+<connection t1="Loremaster's Library" t2="Southpass Garrison"/>
+<connection t1="Moonwood" t2="Serpent's  Spine Mountains North"/>
+<connection t1="Moonwood" t2="Serpent's Spine Mountains South"/>
+<connection t1="Moonwood" t2="The Mystic Lake"/>
+<connection t1="Moonwood" t2="Tobruk"/>
+<connection t1="Moonwood" t2="Trollmoors South"/>
+<connection t1="Morphimar's Keep" t2="Reopulus"/>
+<connection t1="Morphimar's Keep" t2="Screaming Wood"/>
+<connection t1="Morphimar's Keep" t2="Valgorath"/>
+<connection t1="Mosquito Marsh" t2="Rolling Hills"/>
+<connection t1="Mosquito Marsh" t2="Sea of Kahnbrek West SZ"/>
+<connection t1="Mozunrath's Tower" t2="Sea of Gandar Western SZ"/>
+<connection t1="Mozunrath's Tower" t2="Troll Bog"/>
+<connection t1="Mozunrath's Tower" t2="Whispering Wood"/>
+<connection t1="Nation of Krom" t2="Gerik's Hold"/>
+<connection t1="Nation of Krom" t2="The Ghostly Gulf NE SZ"/>
+<connection t1="Nation of Krom" t2="The Ghostly Gulf NW SZ"/>
+<connection t1="Neberus" t2="Port Elgeth"/>
+<connection t1="Ocean of Blades Gulf SZ" t2="Ocean of Blades SZ"/>
+<connection t1="Ocean of Blades Gulf SZ" t2="Ocean of Blades Southwest SZ"/>
+<connection t1="Ocean of Blades Gulf SZ" t2="Razor Pass"/>
+<connection t1="Ocean of Blades Gulf SZ" t2="Serpent's  Spine Mountains North"/>
+<connection t1="Ocean of Blades Gulf SZ" t2="Serpent's Spine Mountains"/>
+<connection t1="Ocean of Blades Gulf SZ" t2="Valley of the Fang"/>
+<connection t1="Ocean of Blades North SZ" t2="Ocean of Blades Northern SZ"/>
+<connection t1="Ocean of Blades North SZ" t2="Sea of Kahnbrek South SZ"/>
+<connection t1="Ocean of Blades North SZ" t2="The Tower of Xarxos"/>
+<connection t1="Ocean of Blades Northern SZ" t2="Ocean of Blades SZ"/>
+<connection t1="Ocean of Blades Northern SZ" t2="Razor Pass"/>
+<connection t1="Ocean of Blades Northern SZ" t2="The Tower of Xarxos"/>
+<connection t1="Ocean of Blades Northern SZ" t2="Valgorath"/>
+<connection t1="Ocean of Blades SZ" t2="Ocean of Blades South SZ"/>
+<connection t1="Ocean of Blades SZ" t2="The Isle of Blades"/>
+<connection t1="Ocean of Blades South SZ" t2="Ocean of Blades Southwest SZ"/>
+<connection t1="Ocean of Blades South SZ" t2="The Isle of Blades"/>
+<connection t1="Ocean of Blades Southwest SZ" t2="Semblek"/>
+<connection t1="Ocean of Blades Southwest SZ" t2="The Venom Sea SZ"/>
+<connection t1="Ocean of Blades Southwest SZ" t2="Valley of the Fang"/>
+<connection t1="Ophan'Kes" t2="The Mystic Lake"/>
+<connection t1="Ophan'Kes" t2="The Northern Keep"/>
+<connection t1="Ophan'Kes" t2="Thorgrim"/>
+<connection t1="Ophan'Kes" t2="Tobruk"/>
+<connection t1="Ophan'Kes" t2="Trollmoors South"/>
+<connection t1="Ophan'Kes" t2="Vidor"/>
+<connection t1="Pools of Saysha" t2="Sharktooth Villiage"/>
+<connection t1="Pools of Saysha" t2="Shem"/>
+<connection t1="Port Elgeth" t2="Uthgard"/>
+<connection t1="Port Elgeth" t2="West Haven"/>
+<connection t1="Pulunar" t2="Sea of Kahnbrek South SZ"/>
+<connection t1="Pulunar" t2="Sea of Kahnbrek Southern SZ"/>
+<connection t1="Ramathorn" t2="Loremaster's Library"/>
+<connection t1="Ramathorn" t2="Southpass Garrison"/>
+<connection t1="Ramathorn" t2="Yormuska"/>
+<connection t1="Razor Pass" t2="Ocean of Blades SZ"/>
+<connection t1="Razor Pass" t2="Valgorath"/>
+<connection t1="Reopulus" t2="Screaming Wood"/>
+<connection t1="Restful Wood" t2="Ulfur's Keep"/>
+<connection t1="Restful Wood" t2="Weeping Valley"/>
+<connection t1="Rimms Pass" t2="Rolling Hills"/>
+<connection t1="Rolling Hills" t2="Wolvesbane Forest"/>
+<connection t1="Scorched Sands" t2="Temple of the Dragon"/>
+<connection t1="Screaming Wood" t2="The Tower of Xarxos"/>
+<connection t1="Screaming Wood" t2="Wolvesbane Forest"/>
+<connection t1="Sea of Gandar East SZ" t2="Sea of Gandar Eastern SZ"/>
+<connection t1="Sea of Gandar East SZ" t2="Serpent's Spine Mountains South"/>
+<connection t1="Sea of Gandar East SZ" t2="The Venom Sea SZ"/>
+<connection t1="Sea of Gandar East SZ" t2="Tobruk"/>
+<connection t1="Sea of Gandar East SZ" t2="Vidor"/>
+<connection t1="Sea of Gandar Eastern SZ" t2="Sea of Gandar SZ"/>
+<connection t1="Sea of Gandar Eastern SZ" t2="Vidor"/>
+<connection t1="Sea of Gandar SZ" t2="Sea of Gandar Western SZ"/>
+<connection t1="Sea of Gandar SZ" t2="The Ghostly Gulf South SZ"/>
+<connection t1="Sea of Kahnbrek SZ" t2="Sea of Kahnbrek Southern SZ"/>
+<connection t1="Sea of Kahnbrek SZ" t2="Sea of Kahnbrek West SZ"/>
+<connection t1="Sea of Kahnbrek South SZ" t2="Sea of Kahnbrek Southern SZ"/>
+<connection t1="Serpent's  Spine Mountains North" t2="Serpent's Spine Mountains"/>
+<connection t1="Serpent's  Spine Mountains North" t2="Trollmoors South"/>
+<connection t1="Serpent's Spine Mountains" t2="Moonwood"/>
+<connection t1="Serpent's Spine Mountains" t2="Serpent's Spine Mountains South"/>
+<connection t1="Serpent's Spine Mountains" t2="Valley of the Fang"/>
+<connection t1="Serpent's Spine Mountains South" t2="The Venom Sea SZ"/>
+<connection t1="Serpent's Spine Mountains South" t2="Tobruk"/>
+<connection t1="Serpent's Spine Mountains South" t2="Valley of the Fang"/>
+<connection t1="Sharktooth Villiage" t2="Shem"/>
+<connection t1="Shem" t2="Waterbreak"/>
+<connection t1="Shyamaline's Folley" t2="Tabletop Plateau"/>
+<connection t1="Shyamaline's Folley" t2="The Ghostly Gulf NE SZ"/>
+<connection t1="Shyamaline's Folley" t2="Three Trader's City"/>
+<connection t1="Splendid City" t2="The Ghostly Gulf SZ"/>
+<connection t1="Splendid City" t2="The Ghostly Gulf South SZ"/>
+<connection t1="Splendid City" t2="Thorgrim"/>
+<connection t1="The Blightlands" t2="Whispering Wood"/>
+<connection t1="The Ghostly Gulf NE SZ" t2="The Ghostly Gulf NW SZ"/>
+<connection t1="The Ghostly Gulf NE SZ" t2="The Ghostly Gulf SZ"/>
+<connection t1="The Ghostly Gulf NE SZ" t2="The Northern Keep"/>
+<connection t1="The Ghostly Gulf NE SZ" t2="Thorgrim"/>
+<connection t1="The Ghostly Gulf NE SZ" t2="Trollmoors North"/>
+<connection t1="The Ghostly Gulf NW SZ" t2="The Ghostly Gulf SZ"/>
+<connection t1="The Ghostly Gulf SZ" t2="Gerik's Hold"/>
+<connection t1="The Ghostly Gulf SZ" t2="The Ghostly Gulf South SZ"/>
+<connection t1="The Ghostly Gulf SZ" t2="The Haunted Island"/>
+<connection t1="The Ghostly Gulf SZ" t2="Thorgrim"/>
+<connection t1="The Haunted Island" t2="The Ghostly Gulf NE SZ"/>
+<connection t1="The Haunted Island" t2="The Ghostly Gulf NW SZ"/>
+<connection t1="The Mystic Lake" t2="Tobruk"/>
+<connection t1="The Northern Keep" t2="Thorgrim"/>
+<connection t1="The Northern Keep" t2="Trollmoors North"/>
+<connection t1="The Northern Keep" t2="Trollmoors South"/>
+<connection t1="The Tower of Xarxos" t2="Valgorath"/>
+<connection t1="The Tower of Xarxos" t2="Wolvesbane Forest"/>
+<connection t1="The Venom Sea SZ" t2="Valley of the Fang"/>
+<connection t1="Thorgrim" t2="Vidor"/>
+<connection t1="Three Trader's City" t2="WInd Rider Territory"/>
+<connection t1="Tobruk" t2="Vidor"/>
+<connection t1="Troll Bog" t2="Troll Bog North"/>
+<connection t1="Troll Bog" t2="West Haven"/>
+<connection t1="Troll Bog" t2="Whispering Wood"/>
+<connection t1="Troll Bog North" t2="West Haven"/>
+<connection t1="Troll Bog North" t2="Whispering Wood"/>
+<connection t1="Trollmoors North" t2="Trollmoors South"/>
+<connection t1="Uthgard" t2="Barbaric Ocean SZ"/>
+<connection t1="Wolvesbane Forest" t2="Pulunar"/>
+        </map>
+        <resourceList>
+                <resource name="PUs"/>
+        </resourceList>
+        <playerList>
+                <!-- In turn order -->
+                <player name="Uthgardian_Empire" optional="false"/>
+                <player name="Pirates_Of_Razor_Pass" optional="false"/>
+                <player name="Dragonfire_Coast_Federation" optional="false"/>
+                <player name="Gandar_Republic" optional="false"/>
+                <player name="Burusian_Empire" optional="false"/>
+                <player name="League_Of_Kahnbrek" optional="false"/>
+
+                <alliance player="Uthgardian_Empire" alliance="Ironforge_Pact"/>
+                <alliance player="Pirates_Of_Razor_Pass" alliance="Ironforge_Pact"/>
+                <alliance player="Dragonfire_Coast_Federation" alliance="Ironforge_Pact"/>
+                <alliance player="Gandar_Republic" alliance="Falconfall_Alliance"/>
+                <alliance player="Burusian_Empire" alliance="Falconfall_Alliance"/>
+                <alliance player="League_Of_Kahnbrek" alliance="Falconfall_Alliance"/>
+        </playerList>
+        <unitList>
+                <unit name="Fortification"/>
+                <unit name="bowman"/>
+                <unit name="dragon"/>
+                <unit name="giant"/>
+                <unit name="goblin"/>
+                <unit name="hobgoblin"/>
+                <unit name="orc"/>
+                <unit name="troll"/>
+                <unit name="treant"/>
+                <unit name="ship"/>
+                <unit name="small_ship"/>
+                <unit name="light_infantry"/>
+                <unit name="medium_infantry"/>
+                <unit name="heavy_infantry"/>
+                <unit name="light_cavalry"/>
+                <unit name="medium_cavalry"/>
+                <unit name="heavy_cavalry"/>
+                <unit name="elf"/>
+                <unit name="dwarf"/>
+                <unit name="halfling"/>
+        </unitList>
+        <gamePlay>
+                <delegate name="initDelegate" javaClass="games.strategy.triplea.delegate.InitializationDelegate" display="Initializing Delegates"/>
+                <delegate name="purchase" javaClass="games.strategy.triplea.delegate.PurchaseDelegate" display="Purchase Units"/>
+                <delegate name="move" javaClass="games.strategy.triplea.delegate.MoveDelegate" display="Combat Move"/>
+                <delegate name="battle" javaClass="games.strategy.triplea.delegate.BattleDelegate" display="Combat"/>
+                <delegate name="place" javaClass="games.strategy.triplea.delegate.PlaceDelegate" display="Place Units"/>
+                <delegate name="endTurn" javaClass="games.strategy.triplea.delegate.EndTurnDelegate" display="Turn Complete"/>
+                <delegate name="endRound" javaClass="games.strategy.triplea.delegate.EndRoundDelegate" display="Round Complete"/>
+                <sequence>
+                        <step name="gameInitDelegate" delegate="initDelegate" maxRunCount="1"/>
+                        <step name="uthgardian_empirePurchase" delegate="purchase" player="Burusian_Empire"/>
+                        <step name="uthgardian_empireCombatMove" delegate="move" player="Burusian_Empire"/>
+                        <step name="uthgardian_empireBattle" delegate="battle" player="Burusian_Empire"/>
+                        <step name="uthgardian_empireNonCombatMove" delegate="move" player="Burusian_Empire" display="Non Combat Move"/>
+                        <step name="uthgardian_empirePlace" delegate="place" player="Burusian_Empire"/>
+                        <step name="uthgardian_empireEndTurn" delegate="endTurn" player="Burusian_Empire"/>
+                        <step name="pirates_of_razor_passPurchase" delegate="purchase" player="Uthgardian_Empire"/>
+                        <step name="pirates_of_razor_passCombatMove" delegate="move" player="Uthgardian_Empire"/>
+                        <step name="pirates_of_razor_passBattle" delegate="battle" player="Uthgardian_Empire"/>
+                        <step name="pirates_of_razor_passNonCombatMove" delegate="move" player="Uthgardian_Empire" display="Non Combat Move"/>
+                        <step name="pirates_of_razor_passPlace" delegate="place" player="Uthgardian_Empire"/>
+                        <step name="pirates_of_razor_passEndTurn" delegate="endTurn" player="Uthgardian_Empire"/>
+                        <step name="dragonfire_coast_federationPurchase" delegate="purchase" player="Gandar_Republic"/>
+                        <step name="dragonfire_coast_federationCombatMove" delegate="move" player="Gandar_Republic"/>
+                        <step name="dragonfire_coast_federationBattle" delegate="battle" player="Gandar_Republic"/>
+                        <step name="dragonfire_coast_federationNonCombatMove" delegate="move" player="Gandar_Republic" display="Non Combat Move"/>
+                        <step name="dragonfire_coast_federationPlace" delegate="place" player="Gandar_Republic"/>
+                        <step name="dragonfire_coast_federationEndTurn" delegate="endTurn" player="Gandar_Republic"/>
+                        <step name="gandar_republicPurchase" delegate="purchase" player="Pirates_Of_Razor_Pass"/>
+                        <step name="gandar_republicCombatMove" delegate="move" player="Pirates_Of_Razor_Pass"/>
+                        <step name="gandar_republicBattle" delegate="battle" player="Pirates_Of_Razor_Pass"/>
+                        <step name="gandar_republicNonCombatMove" delegate="move" player="Pirates_Of_Razor_Pass" display="Non Combat Move"/>
+                        <step name="gandar_republicPlace" delegate="place" player="Pirates_Of_Razor_Pass"/>
+                        <step name="gandar_republicEndTurn" delegate="endTurn" player="Pirates_Of_Razor_Pass"/>
+                        <step name="burusian_empirePurchase" delegate="purchase" player="League_Of_Kahnbrek"/>
+                        <step name="burusian_empireCombatMove" delegate="move" player="League_Of_Kahnbrek"/>
+                        <step name="burusian_empireBattle" delegate="battle" player="League_Of_Kahnbrek"/>
+                        <step name="burusian_empireNonCombatMove" delegate="move" player="League_Of_Kahnbrek" display="Non Combat Move"/>
+                        <step name="burusian_empirePlace" delegate="place" player="League_Of_Kahnbrek"/>
+                        <step name="burusian_empireEndTurn" delegate="endTurn" player="League_Of_Kahnbrek"/>
+                        <step name="league_of_kahnbrekPurchase" delegate="purchase" player="Dragonfire_Coast_Federation"/>
+                        <step name="league_of_kahnbrekCombatMove" delegate="move" player="Dragonfire_Coast_Federation"/>
+                        <step name="league_of_kahnbrekBattle" delegate="battle" player="Dragonfire_Coast_Federation"/>
+                        <step name="league_of_kahnbrekNonCombatMove" delegate="move" player="Dragonfire_Coast_Federation" display="Non Combat Move"/>
+                        <step name="league_of_kahnbrekPlace" delegate="place" player="Dragonfire_Coast_Federation"/>
+                        <step name="league_of_kahnbrekEndTurn" delegate="endTurn" player="Dragonfire_Coast_Federation"/>
+                        <step name="endRoundStep" delegate="endRound"/>
+                </sequence>
+        </gamePlay>
+        <production>
+                <!-- Unit Production Cost -->
+                <productionRule name="buyFortification">
+                        <cost resource="PUs" quantity="12"/>
+                        <result resourceOrUnit="Fortification" quantity="1"/>
+                </productionRule>
+                <productionRule name="buybowman">
+                        <cost resource="PUs" quantity="10"/>
+                        <result resourceOrUnit="bowman" quantity="1"/>
+                </productionRule>
+                <productionRule name="buydragon">
+                        <cost resource="PUs" quantity="12"/>
+                        <result resourceOrUnit="dragon" quantity="1"/>
+                </productionRule>
+                <productionRule name="buygiant">
+                        <cost resource="PUs" quantity="10"/>
+                        <result resourceOrUnit="giant" quantity="1"/>
+                </productionRule>
+                <productionRule name="buygoblin">
+                        <cost resource="PUs" quantity="3"/>
+                        <result resourceOrUnit="goblin" quantity="1"/>
+                </productionRule>
+                <productionRule name="buyhobgoblin">
+                        <cost resource="PUs" quantity="6"/>
+                        <result resourceOrUnit="hobgoblin" quantity="1"/>
+                </productionRule>
+                <productionRule name="buyorc">
+                        <cost resource="PUs" quantity="7"/>
+                        <result resourceOrUnit="orc" quantity="1"/>
+                </productionRule>
+                <productionRule name="buytroll">
+                        <cost resource="PUs" quantity="9"/>
+                        <result resourceOrUnit="troll" quantity="1"/>
+                </productionRule>
+                <productionRule name="buytreant">
+                        <cost resource="PUs" quantity="8"/>
+                        <result resourceOrUnit="treant" quantity="1"/>
+                </productionRule>
+                <productionRule name="buyship">
+                        <cost resource="PUs" quantity="10"/>
+                        <result resourceOrUnit="ship" quantity="1"/>
+                </productionRule>
+                <productionRule name="buysmall_ship">
+                        <cost resource="PUs" quantity="6"/>
+                        <result resourceOrUnit="small_ship" quantity="1"/>
+                </productionRule>
+                <productionRule name="buylight_infantry">
+                        <cost resource="PUs" quantity="3"/>
+                        <result resourceOrUnit="light_infantry" quantity="1"/>
+                </productionRule>
+                <productionRule name="buymedium_infantry">
+                        <cost resource="PUs" quantity="4"/>
+                        <result resourceOrUnit="medium_infantry" quantity="1"/>
+                </productionRule>
+                <productionRule name="buyheavy_infantry">
+                        <cost resource="PUs" quantity="5"/>
+                        <result resourceOrUnit="heavy_infantry" quantity="1"/>
+                </productionRule>
+                <productionRule name="buylight_cavalry">
+                        <cost resource="PUs" quantity="3"/>
+                        <result resourceOrUnit="light_cavalry" quantity="1"/>
+                </productionRule>
+                <productionRule name="buymedium_cavalry">
+                        <cost resource="PUs" quantity="4"/>
+                        <result resourceOrUnit="medium_cavalry" quantity="1"/>
+                </productionRule>
+                <productionRule name="buyheavy_cavalry">
+                        <cost resource="PUs" quantity="5"/>
+                        <result resourceOrUnit="heavy_cavalry" quantity="1"/>
+                </productionRule>
+                <productionRule name="buyelf">
+                        <cost resource="PUs" quantity="7"/>
+                        <result resourceOrUnit="elf" quantity="1"/>
+                </productionRule>
+                <productionRule name="buydwarf">
+                        <cost resource="PUs" quantity="6"/>
+                        <result resourceOrUnit="dwarf" quantity="1"/>
+                </productionRule>
+                <productionRule name="buyhalfling">
+                        <cost resource="PUs" quantity="3"/>
+                        <result resourceOrUnit="halfling" quantity="1"/>
+                </productionRule>
+                <productionFrontier name="Uthgardian_EmpireFrontier">
+                        <frontierRules name="buybowman"/>
+                        <frontierRules name="buydragon"/>
+                        <frontierRules name="buyelf"/>
+                        <frontierRules name="buyFortification"/>
+                        <frontierRules name="buygiant"/>
+                        <frontierRules name="buygoblin"/>
+                        <frontierRules name="buyheavy_cavalry"/>
+                        <frontierRules name="buyheavy_infantry"/>
+                        <frontierRules name="buyhobgoblin"/>
+                        <frontierRules name="buylight_cavalry"/>
+                        <frontierRules name="buylight_infantry"/>
+                        <frontierRules name="buymedium_cavalry"/>
+                        <frontierRules name="buymedium_infantry"/>
+                        <frontierRules name="buyship"/>
+                        <frontierRules name="buysmall_ship"/>
+                        <frontierRules name="buytreant"/>
+                </productionFrontier>
+                <productionFrontier name="Pirates_Of_Razor_PassFrontier">
+                        <frontierRules name="buybowman"/>
+                        <frontierRules name="buydragon"/>
+                        <frontierRules name="buydwarf"/>
+                        <frontierRules name="buyelf"/>
+                        <frontierRules name="buyFortification"/>
+                        <frontierRules name="buygiant"/>
+                        <frontierRules name="buyhalfling"/>
+                        <frontierRules name="buyheavy_cavalry"/>
+                        <frontierRules name="buyheavy_infantry"/>
+                        <frontierRules name="buylight_cavalry"/>
+                        <frontierRules name="buylight_infantry"/>
+                        <frontierRules name="buymedium_cavalry"/>
+                        <frontierRules name="buymedium_infantry"/>
+                        <frontierRules name="buyship"/>
+                        <frontierRules name="buysmall_ship"/>
+                        <frontierRules name="buytreant"/>
+                </productionFrontier>
+                <productionFrontier name="Dragonfire_Coast_FederationFrontier">
+                        <frontierRules name="buybowman"/>
+                        <frontierRules name="buydragon"/>
+                        <frontierRules name="buyFortification"/>
+                        <frontierRules name="buygiant"/>
+                        <frontierRules name="buygoblin"/>
+                        <frontierRules name="buyheavy_cavalry"/>
+                        <frontierRules name="buyheavy_infantry"/>
+                        <frontierRules name="buyhobgoblin"/>
+                        <frontierRules name="buylight_cavalry"/>
+                        <frontierRules name="buylight_infantry"/>
+                        <frontierRules name="buymedium_cavalry"/>
+                        <frontierRules name="buymedium_infantry"/>
+                        <frontierRules name="buyorc"/>
+                        <frontierRules name="buyship"/>
+                        <frontierRules name="buysmall_ship"/>
+                        <frontierRules name="buytroll"/>
+                </productionFrontier>
+                <productionFrontier name="Gandar_RepublicFrontier">
+                        <frontierRules name="buybowman"/>
+                        <frontierRules name="buydragon"/>
+                        <frontierRules name="buydwarf"/>
+                        <frontierRules name="buyelf"/>
+                        <frontierRules name="buyFortification"/>
+                        <frontierRules name="buygiant"/>
+                        <frontierRules name="buyhalfling"/>
+                        <frontierRules name="buyheavy_cavalry"/>
+                        <frontierRules name="buyheavy_infantry"/>
+                        <frontierRules name="buylight_cavalry"/>
+                        <frontierRules name="buylight_infantry"/>
+                        <frontierRules name="buymedium_cavalry"/>
+                        <frontierRules name="buymedium_infantry"/>
+                        <frontierRules name="buyship"/>
+                        <frontierRules name="buysmall_ship"/>
+                        <frontierRules name="buytreant"/>
+                </productionFrontier>
+                <productionFrontier name="Burusian_EmpireFrontier">
+                        <frontierRules name="buybowman"/>
+                        <frontierRules name="buydragon"/>
+                        <frontierRules name="buyFortification"/>
+                        <frontierRules name="buygiant"/>
+                        <frontierRules name="buygoblin"/>
+                        <frontierRules name="buyheavy_cavalry"/>
+                        <frontierRules name="buyheavy_infantry"/>
+                        <frontierRules name="buyhobgoblin"/>
+                        <frontierRules name="buylight_cavalry"/>
+                        <frontierRules name="buylight_infantry"/>
+                        <frontierRules name="buymedium_cavalry"/>
+                        <frontierRules name="buymedium_infantry"/>
+                        <frontierRules name="buyorc"/>
+                        <frontierRules name="buyship"/>
+                        <frontierRules name="buysmall_ship"/>
+                        <frontierRules name="buytroll"/>
+                </productionFrontier>
+                <productionFrontier name="League_Of_KahnbrekFrontier">
+                        <frontierRules name="buybowman"/>
+                        <frontierRules name="buydragon"/>
+                        <frontierRules name="buydwarf"/>
+                        <frontierRules name="buyelf"/>
+                        <frontierRules name="buyFortification"/>
+                        <frontierRules name="buygiant"/>
+                        <frontierRules name="buyhalfling"/>
+                        <frontierRules name="buyheavy_cavalry"/>
+                        <frontierRules name="buyheavy_infantry"/>
+                        <frontierRules name="buylight_cavalry"/>
+                        <frontierRules name="buylight_infantry"/>
+                        <frontierRules name="buymedium_cavalry"/>
+                        <frontierRules name="buymedium_infantry"/>
+                        <frontierRules name="buyship"/>
+                        <frontierRules name="buysmall_ship"/>
+                        <frontierRules name="buytreant"/>
+                </productionFrontier>
+                <playerProduction player="Uthgardian_Empire" frontier="Uthgardian_EmpireFrontier"/>
+                <playerProduction player="Pirates_Of_Razor_Pass" frontier="Pirates_Of_Razor_PassFrontier"/>
+                <playerProduction player="Dragonfire_Coast_Federation" frontier="Dragonfire_Coast_FederationFrontier"/>
+                <playerProduction player="Gandar_Republic" frontier="Gandar_RepublicFrontier"/>
+                <playerProduction player="Burusian_Empire" frontier="Burusian_EmpireFrontier"/>
+                <playerProduction player="League_Of_Kahnbrek" frontier="League_Of_KahnbrekFrontier"/>
+        </production>
+        <attachmentList>
+                    <attachment name="unitAttachment" attachTo="Fortification" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+                         <option name="isFactory" value="true"/>
+                    </attachment>
+                    <attachment name="unitAttachment" attachTo="bowman" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+                         <option name="attack" value="2"/>
+                         <option name="defense" value="2"/>
+                         <option name="movement" value="1"/>
+                         <option name="isInfantry" value="true"/>
+                         <option name="isAA" value="true"/>
+                    </attachment>
+                    <attachment name="unitAttachment" attachTo="dragon" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+                         <option name="attack" value="5"/>
+                         <option name="defense" value="4"/>
+                         <option name="isAir" value="true"/>
+                         <option name="isTwoHit" value="true"/>
+                         <option name="movement" value="8"/>
+                    </attachment>
+                    <attachment name="unitAttachment" attachTo="giant" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+                         <option name="attack" value="4"/>
+                         <option name="defense" value="5"/>
+                         <option name="movement" value="2"/>
+                         <option name="isTwoHit" value="true"/>
+                         <option name="isInfantry" value="true"/>
+                    </attachment>
+                    <attachment name="unitAttachment" attachTo="goblin" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+                         <option name="attack" value="2"/>
+                         <option name="defense" value="1"/>
+                         <option name="movement" value="2"/>
+                         <option name="isInfantry" value="true"/>
+                    </attachment>
+                    <attachment name="unitAttachment" attachTo="hobgoblin" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+                         <option name="attack" value="2"/>
+                         <option name="defense" value="3"/>
+                         <option name="movement" value="2"/>
+                         <option name="isInfantry" value="true"/>
+                         <option name="isTwoHit" value="true"/>
+                    </attachment>
+                    <attachment name="unitAttachment" attachTo="orc" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+                         <option name="attack" value="3"/>
+                         <option name="defense" value="2"/>
+                         <option name="movement" value="2"/>
+                         <option name="isInfantry" value="true"/>
+                         <option name="isTwoHit" value="true"/>
+                    </attachment>
+                    <attachment name="unitAttachment" attachTo="troll" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+                         <option name="attack" value="4"/>
+                         <option name="defense" value="3"/>
+                         <option name="movement" value="2"/>
+                         <option name="isInfantry" value="true"/>
+                         <option name="isTwoHit" value="true"/>
+                         <option name="isMarine" value="true"/>
+                    </attachment>
+                    <attachment name="unitAttachment" attachTo="treant" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+                         <option name="attack" value="3"/>
+                         <option name="defense" value="4"/>
+                         <option name="movement" value="2"/>
+                         <option name="isTwoHit" value="true"/>
+                         <option name="isInfantry" value="true"/>
+                    </attachment>
+                    <attachment name="unitAttachment" attachTo="ship" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+                         <option name="attack" value="3"/>
+                         <option name="defense" value="3"/>
+                         <option name="movement" value="4"/>
+                         <option name="isTwoHit" value="true"/>
+                         <option name="isSea" value="true"/>
+                         <option name="transportCapacity" value="2"/>
+                         <option name="canBombard" value="true"/>
+                    </attachment>
+                    <attachment name="unitAttachment" attachTo="small_ship" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+                         <option name="attack" value="2"/>
+                         <option name="defense" value="2"/>
+                         <option name="movement" value="4"/>
+                         <option name="isSea" value="true"/>
+                         <option name="transportCapacity" value="1"/>
+                    </attachment>
+                    <attachment name="unitAttachment" attachTo="light_infantry" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+                         <option name="attack" value="1"/>
+                         <option name="defense" value="2"/>
+                         <option name="movement" value="2"/>
+                         <option name="isInfantry" value="true"/>
+                    </attachment>
+                    <attachment name="unitAttachment" attachTo="medium_infantry" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+                         <option name="attack" value="2"/>
+                         <option name="defense" value="3"/>
+                         <option name="movement" value="2"/>
+                         <option name="isInfantry" value="true"/>
+                    </attachment>
+                    <attachment name="unitAttachment" attachTo="heavy_infantry" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+                         <option name="attack" value="3"/>
+                         <option name="defense" value="4"/>
+                         <option name="movement" value="2"/>
+                         <option name="isInfantry" value="true"/>
+                    </attachment>
+                    <attachment name="unitAttachment" attachTo="light_cavalry" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+                         <option name="attack" value="1"/>
+                         <option name="defense" value="1"/>
+                         <option name="movement" value="4"/>
+                         <option name="isInfantry" value="true"/>
+                         <option name="canBlitz" value="true"/>
+                    </attachment>
+                    <attachment name="unitAttachment" attachTo="medium_cavalry" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+                         <option name="attack" value="2"/>
+                         <option name="defense" value="1"/>
+                         <option name="movement" value="4"/>
+                         <option name="isInfantry" value="true"/>
+                         <option name="canBlitz" value="true"/>
+                    </attachment>
+                    <attachment name="unitAttachment" attachTo="heavy_cavalry" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+                         <option name="attack" value="3"/>
+                         <option name="defense" value="2"/>
+                         <option name="movement" value="4"/>
+                         <option name="isInfantry" value="true"/>
+                         <option name="canBlitz" value="true"/>
+                    </attachment>
+                    <attachment name="unitAttachment" attachTo="elf" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+                         <option name="attack" value="3"/>
+                         <option name="defense" value="2"/>
+                         <option name="movement" value="2"/>
+                         <option name="isInfantry" value="true"/>
+                         <option name="isTwoHit" value="true"/>
+                    </attachment>
+                    <attachment name="unitAttachment" attachTo="dwarf" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+                         <option name="attack" value="2"/>
+                         <option name="defense" value="3"/>
+                         <option name="movement" value="2"/>
+                         <option name="isInfantry" value="true"/>
+                         <option name="isTwoHit" value="true"/>
+                    </attachment>
+                    <attachment name="unitAttachment" attachTo="halfling" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+                         <option name="attack" value="1"/>
+                         <option name="defense" value="3"/>
+                         <option name="movement" value="2"/>
+                         <option name="isInfantry" value="true"/>
+                    </attachment>
+                    <attachment name="territoryAttachment" attachTo="Uthgard" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="10"/>
+                        <option name="capital" value="Uthgardian_Empire"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Razor Pass" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="10"/>
+                        <option name="capital" value="Pirates_Of_Razor_Pass"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Dragonfire Coast" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="10"/>
+                        <option name="capital" value="Dragonfire_Coast_Federation"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Gandar" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="10"/>
+                        <option name="capital" value="Gandar_Republic"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Burusia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="10"/>
+                        <option name="capital" value="Burusian_Empire"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Kahnbrek" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="10"/>
+                        <option name="capital" value="League_Of_Kahnbrek"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Nation of Krom" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="5"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Gelvazar" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="3"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Burning Shores" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="2"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Develar's Lake" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="2"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Last Respite" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="3"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Tobruk" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="1"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Dark Forest" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="4"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Moonwood" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="3"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Yormuska" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="2"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Hammerfast" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="3"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Rimms Pass" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="1"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Ulfur's Keep" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="5"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Bayridge Mountains" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="2"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Ibadeth City" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="5"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Dragonback Hills" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="2"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Kelgar's Pass" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="3"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Troll Bog" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="1"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Golgatha" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="3"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Avinosh" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="2"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Evershine Mountains" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="2"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Ramathorn" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="2"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Greenvale" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="3"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Dale Lands" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="2"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Kingdom of Druj" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="5"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Gerison" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="3"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Mosquito Marsh" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="1"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Igthorn's Pass" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="2"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Kaligistan" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="3"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="The Northern Keep" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="3"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Port Elgeth" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="3"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Egress Forest" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="1"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Lonely Plains East" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="1"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Pools of Saysha" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="3"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Neberus" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="3"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Whispering Wood" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="0"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Marafashan" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="4"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Ophan'Kes" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="1"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Reopulus" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="2"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Pulunar" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="3"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Trollmoors South" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="1"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Scorched Sands" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="2"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Evershine Mountains East" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="2"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Lonely Plains West" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="4"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Splendid City" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="3"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="The Blightlands" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="1"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Temple of the Dragon" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="4"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Serpent's Spine Mountains South" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="2"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Valgorath" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="3"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Valley of the Fang" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="1"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Vidor" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="3"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Three Trader's City" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="6"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Sharktooth Villiage" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="3"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="High Ridge Caverns" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="4"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Shyamaline's Folley" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="2"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Endowyn" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="2"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Tabletop Plateau" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="2"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Restful Wood" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="2"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Bellok" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="2"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Weeping Valley" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="3"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Howling Canyon" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="3"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="The Haunted Island" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="4"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Fearus Hills" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="2"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Southpass Garrison" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="3"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Waterbreak" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="3"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Harold" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="3"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Kingdom of the Sea Elves" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="5"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="The Mystic Lake" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="2"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Serpent's Spine Mountains" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="3"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Evershine Mountains West" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="2"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Serpent's  Spine Mountains North" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="2"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Wolvesbane Forest" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="2"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Castle Gandar" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="3"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Longview" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="3"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Mozunrath's Tower" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="3"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Homeland of the Tribe of the Tiger" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="2"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="The Isle of Blades" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="4"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Homeland of the Tribe of the Whale" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="3"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Dragonscar Desert" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="2"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Thorgrim" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="3"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Troll Bog North" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="1"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="West Haven" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="2"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Lonely Plains" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="2"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Gulfport" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="4"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Burning Oasis" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="3"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Falconfall" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="4"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Homeland of the Tribe of the Bear" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="2"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Shem" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="2"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Eastwatch" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="3"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Eastern Lowlands" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="2"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Semblek" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="2"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="The Tower of Xarxos" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="3"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Morphimar's Keep" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="4"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Evershine Mountains North" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="2"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Forbidding Peaks" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="5"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="WInd Rider Territory" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="2"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Rolling Hills" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="2"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Trollmoors North" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="1"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Gerik's Hold" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="4"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Screaming Wood" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="2"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Jundland Wastes" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="1"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Igna" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="2"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Dragonback Mountains" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="2"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Hidden Lake" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="2"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Glimmering Forest" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="3"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Loremaster's Library" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="4"/>
+                   </attachment>
+        </attachmentList>
+        <initialize>
+                <ownerInitialize>
+                        <territoryOwner territory="Uthgard" owner="Uthgardian_Empire"/>
+                        <territoryOwner territory="Razor Pass" owner="Pirates_Of_Razor_Pass"/>
+                        <territoryOwner territory="Dragonfire Coast" owner="Dragonfire_Coast_Federation"/>
+                        <territoryOwner territory="Gandar" owner="Gandar_Republic"/>
+                        <territoryOwner territory="Burusia" owner="Burusian_Empire"/>
+                        <territoryOwner territory="Kahnbrek" owner="League_Of_Kahnbrek"/>
+                </ownerInitialize>
+                <unitInitialize>
+                        <unitPlacement unitType="Fortification" territory="Uthgard" quantity="1" owner="Uthgardian_Empire"/>
+                        <unitPlacement unitType="bowman" territory="Uthgard" quantity="1" owner="Uthgardian_Empire"/>
+                        <unitPlacement unitType="goblin" territory="Uthgard" quantity="2" owner="Uthgardian_Empire"/>
+                        <unitPlacement unitType="orc" territory="Uthgard" quantity="1" owner="Uthgardian_Empire"/>
+                        <unitPlacement unitType="light_infantry" territory="Uthgard" quantity="1" owner="Uthgardian_Empire"/>
+                        <unitPlacement unitType="medium_infantry" territory="Uthgard" quantity="1" owner="Uthgardian_Empire"/>
+                        <unitPlacement unitType="light_cavalry" territory="Uthgard" quantity="2" owner="Uthgardian_Empire"/>
+                        <unitPlacement unitType="heavy_cavalry" territory="Uthgard" quantity="1" owner="Uthgardian_Empire"/>
+                        <unitPlacement unitType="halfling" territory="Uthgard" quantity="1" owner="Uthgardian_Empire"/>
+                        <unitPlacement unitType="Fortification" territory="Razor Pass" quantity="1" owner="Pirates_Of_Razor_Pass"/>
+                        <unitPlacement unitType="bowman" territory="Razor Pass" quantity="1" owner="Pirates_Of_Razor_Pass"/>
+                        <unitPlacement unitType="goblin" territory="Razor Pass" quantity="3" owner="Pirates_Of_Razor_Pass"/>
+                        <unitPlacement unitType="light_infantry" territory="Razor Pass" quantity="2" owner="Pirates_Of_Razor_Pass"/>
+                        <unitPlacement unitType="medium_infantry" territory="Razor Pass" quantity="1" owner="Pirates_Of_Razor_Pass"/>
+                        <unitPlacement unitType="heavy_infantry" territory="Razor Pass" quantity="2" owner="Pirates_Of_Razor_Pass"/>
+                        <unitPlacement unitType="light_cavalry" territory="Razor Pass" quantity="1" owner="Pirates_Of_Razor_Pass"/>
+                        <unitPlacement unitType="Fortification" territory="Dragonfire Coast" quantity="1" owner="Dragonfire_Coast_Federation"/>
+                        <unitPlacement unitType="bowman" territory="Dragonfire Coast" quantity="1" owner="Dragonfire_Coast_Federation"/>
+                        <unitPlacement unitType="dragon" territory="Dragonfire Coast" quantity="1" owner="Dragonfire_Coast_Federation"/>
+                        <unitPlacement unitType="goblin" territory="Dragonfire Coast" quantity="2" owner="Dragonfire_Coast_Federation"/>
+                        <unitPlacement unitType="light_infantry" territory="Dragonfire Coast" quantity="1" owner="Dragonfire_Coast_Federation"/>
+                        <unitPlacement unitType="heavy_infantry" territory="Dragonfire Coast" quantity="2" owner="Dragonfire_Coast_Federation"/>
+                        <unitPlacement unitType="light_cavalry" territory="Dragonfire Coast" quantity="2" owner="Dragonfire_Coast_Federation"/>
+                        <unitPlacement unitType="halfling" territory="Dragonfire Coast" quantity="1" owner="Dragonfire_Coast_Federation"/>
+                        <unitPlacement unitType="Fortification" territory="Gandar" quantity="1" owner="Gandar_Republic"/>
+                        <unitPlacement unitType="bowman" territory="Gandar" quantity="1" owner="Gandar_Republic"/>
+                        <unitPlacement unitType="giant" territory="Gandar" quantity="1" owner="Gandar_Republic"/>
+                        <unitPlacement unitType="light_infantry" territory="Gandar" quantity="2" owner="Gandar_Republic"/>
+                        <unitPlacement unitType="medium_infantry" territory="Gandar" quantity="3" owner="Gandar_Republic"/>
+                        <unitPlacement unitType="light_cavalry" territory="Gandar" quantity="1" owner="Gandar_Republic"/>
+                        <unitPlacement unitType="heavy_cavalry" territory="Gandar" quantity="1" owner="Gandar_Republic"/>
+                        <unitPlacement unitType="halfling" territory="Gandar" quantity="1" owner="Gandar_Republic"/>
+                        <unitPlacement unitType="Fortification" territory="Burusia" quantity="1" owner="Burusian_Empire"/>
+                        <unitPlacement unitType="bowman" territory="Burusia" quantity="1" owner="Burusian_Empire"/>
+                        <unitPlacement unitType="goblin" territory="Burusia" quantity="2" owner="Burusian_Empire"/>
+                        <unitPlacement unitType="light_infantry" territory="Burusia" quantity="1" owner="Burusian_Empire"/>
+                        <unitPlacement unitType="medium_infantry" territory="Burusia" quantity="2" owner="Burusian_Empire"/>
+                        <unitPlacement unitType="medium_cavalry" territory="Burusia" quantity="2" owner="Burusian_Empire"/>
+                        <unitPlacement unitType="dwarf" territory="Burusia" quantity="1" owner="Burusian_Empire"/>
+                        <unitPlacement unitType="halfling" territory="Burusia" quantity="1" owner="Burusian_Empire"/>
+                        <unitPlacement unitType="Fortification" territory="Kahnbrek" quantity="1" owner="League_Of_Kahnbrek"/>
+                        <unitPlacement unitType="bowman" territory="Kahnbrek" quantity="1" owner="League_Of_Kahnbrek"/>
+                        <unitPlacement unitType="goblin" territory="Kahnbrek" quantity="1" owner="League_Of_Kahnbrek"/>
+                        <unitPlacement unitType="medium_infantry" territory="Kahnbrek" quantity="2" owner="League_Of_Kahnbrek"/>
+                        <unitPlacement unitType="heavy_infantry" territory="Kahnbrek" quantity="2" owner="League_Of_Kahnbrek"/>
+                        <unitPlacement unitType="heavy_cavalry" territory="Kahnbrek" quantity="2" owner="League_Of_Kahnbrek"/>
+                        <unitPlacement unitType="elf" territory="Kahnbrek" quantity="1" owner="League_Of_Kahnbrek"/>
+                        <unitPlacement unitType="halfling" territory="Kahnbrek" quantity="1" owner="League_Of_Kahnbrek"/>
+                        <unitPlacement unitType="Fortification" territory="Nation of Krom" quantity="1"/>
+                        <unitPlacement unitType="bowman" territory="Nation of Krom" quantity="1"/>
+                        <unitPlacement unitType="giant" territory="Nation of Krom" quantity="1"/>
+                        <unitPlacement unitType="heavy_infantry" territory="Nation of Krom" quantity="3"/>
+                        <unitPlacement unitType="bowman" territory="Gelvazar" quantity="1"/>
+                        <unitPlacement unitType="light_infantry" territory="Gelvazar" quantity="1"/>
+                        <unitPlacement unitType="light_cavalry" territory="Burning Shores" quantity="2"/>
+                        <unitPlacement unitType="halfling" territory="Develar's Lake" quantity="2"/>
+                        <unitPlacement unitType="halfling" territory="Last Respite" quantity="2"/>
+                        <unitPlacement unitType="light_cavalry" territory="Tobruk" quantity="1"/>
+                        <unitPlacement unitType="heavy_cavalry" territory="Tobruk" quantity="1"/>
+                        <unitPlacement unitType="elf" territory="Dark Forest" quantity="3"/>
+                        <unitPlacement unitType="elf" territory="Moonwood" quantity="2"/>
+                        <unitPlacement unitType="goblin" territory="Yormuska" quantity="1"/>
+                        <unitPlacement unitType="halfling" territory="Yormuska" quantity="1"/>
+                        <unitPlacement unitType="bowman" territory="Hammerfast" quantity="1"/>
+                        <unitPlacement unitType="dwarf" territory="Hammerfast" quantity="1"/>
+                        <unitPlacement unitType="light_infantry" territory="Rimms Pass" quantity="1"/>
+                        <unitPlacement unitType="Fortification" territory="Ulfur's Keep" quantity="1"/>
+                        <unitPlacement unitType="bowman" territory="Ulfur's Keep" quantity="1"/>
+                        <unitPlacement unitType="medium_infantry" territory="Ulfur's Keep" quantity="1"/>
+                        <unitPlacement unitType="elf" territory="Ulfur's Keep" quantity="1"/>
+                        <unitPlacement unitType="dwarf" territory="Ulfur's Keep" quantity="1"/>
+                        <unitPlacement unitType="halfling" territory="Ulfur's Keep" quantity="1"/>
+                        <unitPlacement unitType="ship" territory="Evershine Sea SZ" quantity="1" owner="Burusian_Empire"/>
+                        <unitPlacement unitType="small_ship" territory="Evershine Sea SZ" quantity="1" owner="Burusian_Empire"/>
+                        <unitPlacement unitType="giant" territory="Bayridge Mountains" quantity="2"/>
+                        <unitPlacement unitType="bowman" territory="Ibadeth City" quantity="1"/>
+                        <unitPlacement unitType="goblin" territory="Ibadeth City" quantity="2"/>
+                        <unitPlacement unitType="hobgoblin" territory="Ibadeth City" quantity="2"/>
+                        <unitPlacement unitType="dragon" territory="Dragonback Hills" quantity="1"/>
+                        <unitPlacement unitType="goblin" territory="Dragonback Hills" quantity="1"/>
+                        <unitPlacement unitType="goblin" territory="Kelgar's Pass" quantity="1"/>
+                        <unitPlacement unitType="hobgoblin" territory="Kelgar's Pass" quantity="1"/>
+                        <unitPlacement unitType="troll" territory="Troll Bog" quantity="2"/>
+                        <unitPlacement unitType="bowman" territory="Golgatha" quantity="2"/>
+                        <unitPlacement unitType="dragon" territory="Golgatha" quantity="1"/>
+                        <unitPlacement unitType="goblin" territory="Golgatha" quantity="1"/>
+                        <unitPlacement unitType="light_infantry" territory="Avinosh" quantity="1"/>
+                        <unitPlacement unitType="dwarf" territory="Evershine Mountains" quantity="3"/>
+                        <unitPlacement unitType="ship" territory="Sea of Kahnbrek Southern SZ" quantity="1"/>
+                        <unitPlacement unitType="small_ship" territory="Sea of Kahnbrek Southern SZ" quantity="1"/>
+                        <unitPlacement unitType="light_infantry" territory="Ramathorn" quantity="1"/>
+                        <unitPlacement unitType="bowman" territory="Greenvale" quantity="1"/>
+                        <unitPlacement unitType="elf" territory="Greenvale" quantity="2"/>
+                        <unitPlacement unitType="ship" territory="Sea of Kahnbrek South SZ" quantity="1"/>
+                        <unitPlacement unitType="small_ship" territory="Sea of Kahnbrek South SZ" quantity="1"/>
+                        <unitPlacement unitType="halfling" territory="Dale Lands" quantity="2"/>
+                        <unitPlacement unitType="Fortification" territory="Kingdom of Druj" quantity="1"/>
+                        <unitPlacement unitType="bowman" territory="Kingdom of Druj" quantity="1"/>
+                        <unitPlacement unitType="giant" territory="Kingdom of Druj" quantity="1"/>
+                        <unitPlacement unitType="heavy_infantry" territory="Kingdom of Druj" quantity="2"/>
+                        <unitPlacement unitType="light_infantry" territory="Gerison" quantity="2"/>
+                        <unitPlacement unitType="halfling" territory="Gerison" quantity="1"/>
+                        <unitPlacement unitType="ship" territory="Barbaric Ocean North SZ" quantity="2"/>
+                        <unitPlacement unitType="troll" territory="Mosquito Marsh" quantity="1"/>
+                        <unitPlacement unitType="light_infantry" territory="Igthorn's Pass" quantity="1"/>
+                        <unitPlacement unitType="halfling" territory="Igthorn's Pass" quantity="1"/>
+                        <unitPlacement unitType="halfling" territory="Kaligistan" quantity="2"/>
+                        <unitPlacement unitType="bowman" territory="The Northern Keep" quantity="1"/>
+                        <unitPlacement unitType="light_infantry" territory="The Northern Keep" quantity="1"/>
+                        <unitPlacement unitType="halfling" territory="The Northern Keep" quantity="1"/>
+                        <unitPlacement unitType="bowman" territory="Port Elgeth" quantity="1"/>
+                        <unitPlacement unitType="heavy_infantry" territory="Port Elgeth" quantity="1"/>
+                        <unitPlacement unitType="ship" territory="Ocean of Blades Northern SZ" quantity="1" owner="Pirates_Of_Razor_Pass"/>
+                        <unitPlacement unitType="orc" territory="Egress Forest" quantity="1"/>
+                        <unitPlacement unitType="medium_infantry" territory="Lonely Plains East" quantity="1"/>
+                        <unitPlacement unitType="elf" territory="Pools of Saysha" quantity="2"/>
+                        <unitPlacement unitType="goblin" territory="Neberus" quantity="1"/>
+                        <unitPlacement unitType="hobgoblin" territory="Neberus" quantity="1"/>
+                        <unitPlacement unitType="orc" territory="Neberus" quantity="1"/>
+                        <unitPlacement unitType="treant" territory="Whispering Wood" quantity="3"/>
+                        <unitPlacement unitType="halfling" territory="Marafashan" quantity="3"/>
+                        <unitPlacement unitType="goblin" territory="Ophan'Kes" quantity="1"/>
+                        <unitPlacement unitType="elf" territory="Reopulus" quantity="1"/>
+                        <unitPlacement unitType="dwarf" territory="Reopulus" quantity="1"/>
+                        <unitPlacement unitType="medium_infantry" territory="Pulunar" quantity="1"/>
+                        <unitPlacement unitType="heavy_cavalry" territory="Pulunar" quantity="1"/>
+                        <unitPlacement unitType="troll" territory="Trollmoors South" quantity="1"/>
+                        <unitPlacement unitType="ship" territory="Evershine Sea East SZ" quantity="1"/>
+                        <unitPlacement unitType="small_ship" territory="Evershine Sea East SZ" quantity="1"/>
+                        <unitPlacement unitType="light_infantry" territory="Scorched Sands" quantity="1"/>
+                        <unitPlacement unitType="dwarf" territory="Evershine Mountains East" quantity="2"/>
+                        <unitPlacement unitType="light_cavalry" territory="Lonely Plains West" quantity="2"/>
+                        <unitPlacement unitType="ship" territory="Ocean of Blades SZ" quantity="1" owner="Pirates_Of_Razor_Pass"/>
+                        <unitPlacement unitType="small_ship" territory="Ocean of Blades SZ" quantity="1" owner="Pirates_Of_Razor_Pass"/>
+                        <unitPlacement unitType="medium_infantry" territory="Splendid City" quantity="1"/>
+                        <unitPlacement unitType="medium_cavalry" territory="Splendid City" quantity="1"/>
+                        <unitPlacement unitType="orc" territory="The Blightlands" quantity="1"/>
+                        <unitPlacement unitType="dragon" territory="Temple of the Dragon" quantity="1"/>
+                        <unitPlacement unitType="halfling" territory="Temple of the Dragon" quantity="1"/>
+                        <unitPlacement unitType="goblin" territory="Serpent's Spine Mountains South" quantity="2"/>
+                        <unitPlacement unitType="medium_infantry" territory="Valgorath" quantity="2"/>
+                        <unitPlacement unitType="goblin" territory="Valley of the Fang" quantity="2"/>
+                        <unitPlacement unitType="goblin" territory="Vidor" quantity="1"/>
+                        <unitPlacement unitType="medium_infantry" territory="Vidor" quantity="1"/>
+                        <unitPlacement unitType="ship" territory="Ocean of Blades Southwest SZ" quantity="1"/>
+                        <unitPlacement unitType="small_ship" territory="Ocean of Blades Southwest SZ" quantity="1"/>
+                        <unitPlacement unitType="ship" territory="The Venom Sea SZ" quantity="1"/>
+                        <unitPlacement unitType="small_ship" territory="The Venom Sea SZ" quantity="1"/>
+                        <unitPlacement unitType="ship" territory="The Ghostly Gulf South SZ" quantity="1"/>
+                        <unitPlacement unitType="ship" territory="Dragonfire Gulf SZ" quantity="2"/>
+                        <unitPlacement unitType="small_ship" territory="Dragonfire Gulf SZ" quantity="2"/>
+                        <unitPlacement unitType="bowman" territory="Three Trader's City" quantity="2"/>
+                        <unitPlacement unitType="giant" territory="Three Trader's City" quantity="1"/>
+                        <unitPlacement unitType="treant" territory="Three Trader's City" quantity="1"/>
+                        <unitPlacement unitType="halfling" territory="Three Trader's City" quantity="3"/>
+                        <unitPlacement unitType="ship" territory="Dragonfire Sea Western SZ" quantity="1" owner="Dragonfire_Coast_Federation"/>
+                        <unitPlacement unitType="small_ship" territory="Dragonfire Sea Western SZ" quantity="1" owner="Dragonfire_Coast_Federation"/>
+                        <unitPlacement unitType="goblin" territory="Sharktooth Villiage" quantity="1"/>
+                        <unitPlacement unitType="hobgoblin" territory="Sharktooth Villiage" quantity="1"/>
+                        <unitPlacement unitType="dragon" territory="High Ridge Caverns" quantity="1"/>
+                        <unitPlacement unitType="giant" territory="High Ridge Caverns" quantity="1"/>
+                        <unitPlacement unitType="light_infantry" territory="Shyamaline's Folley" quantity="1"/>
+                        <unitPlacement unitType="medium_infantry" territory="Endowyn" quantity="1"/>
+                        <unitPlacement unitType="heavy_cavalry" territory="Endowyn" quantity="1"/>
+                        <unitPlacement unitType="medium_cavalry" territory="Tabletop Plateau" quantity="2"/>
+                        <unitPlacement unitType="elf" territory="Restful Wood" quantity="1"/>
+                        <unitPlacement unitType="light_infantry" territory="Bellok" quantity="2"/>
+                        <unitPlacement unitType="medium_cavalry" territory="Weeping Valley" quantity="2"/>
+                        <unitPlacement unitType="orc" territory="Howling Canyon" quantity="1"/>
+                        <unitPlacement unitType="treant" territory="The Haunted Island" quantity="1"/>
+                        <unitPlacement unitType="elf" territory="The Haunted Island" quantity="2"/>
+                        <unitPlacement unitType="giant" territory="Fearus Hills" quantity="1"/>
+                        <unitPlacement unitType="Fortification" territory="Southpass Garrison" quantity="1"/>
+                        <unitPlacement unitType="bowman" territory="Southpass Garrison" quantity="1"/>
+                        <unitPlacement unitType="orc" territory="Southpass Garrison" quantity="1"/>
+                        <unitPlacement unitType="treant" territory="Southpass Garrison" quantity="1"/>
+                        <unitPlacement unitType="heavy_cavalry" territory="Southpass Garrison" quantity="2"/>
+                        <unitPlacement unitType="goblin" territory="Waterbreak" quantity="2"/>
+                        <unitPlacement unitType="bowman" territory="Harold" quantity="1"/>
+                        <unitPlacement unitType="heavy_infantry" territory="Harold" quantity="2"/>
+                        <unitPlacement unitType="ship" territory="Sea of Gandar SZ" quantity="1" owner="Gandar_Republic"/>
+                        <unitPlacement unitType="small_ship" territory="Sea of Gandar SZ" quantity="1" owner="Gandar_Republic"/>
+                        <unitPlacement unitType="Fortification" territory="Kingdom of the Sea Elves" quantity="1"/>
+                        <unitPlacement unitType="bowman" territory="Kingdom of the Sea Elves" quantity="1"/>
+                        <unitPlacement unitType="elf" territory="Kingdom of the Sea Elves" quantity="4"/>
+                        <unitPlacement unitType="elf" territory="The Mystic Lake" quantity="1"/>
+                        <unitPlacement unitType="goblin" territory="Serpent's Spine Mountains" quantity="1"/>
+                        <unitPlacement unitType="hobgoblin" territory="Serpent's Spine Mountains" quantity="1"/>
+                        <unitPlacement unitType="goblin" territory="Evershine Mountains West" quantity="2"/>
+                        <unitPlacement unitType="hobgoblin" territory="Evershine Mountains West" quantity="1"/>
+                        <unitPlacement unitType="ship" territory="Dragonfire Sea West SZ" quantity="1"/>
+                        <unitPlacement unitType="small_ship" territory="Dragonfire Sea West SZ" quantity="1"/>
+                        <unitPlacement unitType="dwarf" territory="Serpent's  Spine Mountains North" quantity="2"/>
+                        <unitPlacement unitType="treant" territory="Wolvesbane Forest" quantity="3"/>
+                        <unitPlacement unitType="bowman" territory="Castle Gandar" quantity="1"/>
+                        <unitPlacement unitType="light_infantry" territory="Castle Gandar" quantity="1"/>
+                        <unitPlacement unitType="heavy_infantry" territory="Castle Gandar" quantity="1"/>
+                        <unitPlacement unitType="medium_infantry" territory="Longview" quantity="2"/>
+                        <unitPlacement unitType="ship" territory="Barbaric Ocean Eastern SZ" quantity="1" owner="Uthgardian_Empire"/>
+                        <unitPlacement unitType="small_ship" territory="Barbaric Ocean Eastern SZ" quantity="1" owner="Uthgardian_Empire"/>
+                        <unitPlacement unitType="treant" territory="Mozunrath's Tower" quantity="1"/>
+                        <unitPlacement unitType="elf" territory="Mozunrath's Tower" quantity="1"/>
+                        <unitPlacement unitType="dwarf" territory="Mozunrath's Tower" quantity="1"/>
+                        <unitPlacement unitType="halfling" territory="Mozunrath's Tower" quantity="1"/>
+                        <unitPlacement unitType="ship" territory="Ocean of Blades South SZ" quantity="1"/>
+                        <unitPlacement unitType="small_ship" territory="Ocean of Blades South SZ" quantity="1"/>
+                        <unitPlacement unitType="heavy_infantry" territory="Homeland of the Tribe of the Tiger" quantity="2"/>
+                        <unitPlacement unitType="goblin" territory="The Isle of Blades" quantity="1"/>
+                        <unitPlacement unitType="orc" territory="The Isle of Blades" quantity="1"/>
+                        <unitPlacement unitType="heavy_infantry" territory="Homeland of the Tribe of the Whale" quantity="2"/>
+                        <unitPlacement unitType="light_cavalry" territory="Dragonscar Desert" quantity="1"/>
+                        <unitPlacement unitType="medium_cavalry" territory="Dragonscar Desert" quantity="2"/>
+                        <unitPlacement unitType="dwarf" territory="Thorgrim" quantity="1"/>
+                        <unitPlacement unitType="troll" territory="Troll Bog North" quantity="1"/>
+                        <unitPlacement unitType="medium_infantry" territory="West Haven" quantity="2"/>
+                        <unitPlacement unitType="halfling" territory="West Haven" quantity="1"/>
+                        <unitPlacement unitType="light_infantry" territory="Lonely Plains" quantity="2"/>
+                        <unitPlacement unitType="Fortification" territory="Gulfport" quantity="1"/>
+                        <unitPlacement unitType="bowman" territory="Gulfport" quantity="1"/>
+                        <unitPlacement unitType="medium_infantry" territory="Gulfport" quantity="2"/>
+                        <unitPlacement unitType="elf" territory="Gulfport" quantity="1"/>
+                        <unitPlacement unitType="dwarf" territory="Gulfport" quantity="1"/>
+                        <unitPlacement unitType="dragon" territory="Burning Oasis" quantity="1"/>
+                        <unitPlacement unitType="goblin" territory="Burning Oasis" quantity="2"/>
+                        <unitPlacement unitType="Fortification" territory="Falconfall" quantity="1"/>
+                        <unitPlacement unitType="bowman" territory="Falconfall" quantity="1"/>
+                        <unitPlacement unitType="dragon" territory="Falconfall" quantity="1"/>
+                        <unitPlacement unitType="heavy_cavalry" territory="Falconfall" quantity="2"/>
+                        <unitPlacement unitType="elf" territory="Falconfall" quantity="1"/>
+                        <unitPlacement unitType="heavy_infantry" territory="Homeland of the Tribe of the Bear" quantity="2"/>
+                        <unitPlacement unitType="orc" territory="Shem" quantity="1"/>
+                        <unitPlacement unitType="bowman" territory="Eastwatch" quantity="1"/>
+                        <unitPlacement unitType="light_infantry" territory="Eastwatch" quantity="1"/>
+                        <unitPlacement unitType="medium_infantry" territory="Eastern Lowlands" quantity="2"/>
+                        <unitPlacement unitType="goblin" territory="Semblek" quantity="2"/>
+                        <unitPlacement unitType="bowman" territory="The Tower of Xarxos" quantity="1"/>
+                        <unitPlacement unitType="heavy_infantry" territory="The Tower of Xarxos" quantity="1"/>
+                        <unitPlacement unitType="halfling" territory="The Tower of Xarxos" quantity="1"/>
+                        <unitPlacement unitType="medium_infantry" territory="Morphimar's Keep" quantity="2"/>
+                        <unitPlacement unitType="heavy_infantry" territory="Morphimar's Keep" quantity="1"/>
+                        <unitPlacement unitType="dwarf" territory="Evershine Mountains North" quantity="2"/>
+                        <unitPlacement unitType="ship" territory="Dark Waters West SZ" quantity="1"/>
+                        <unitPlacement unitType="small_ship" territory="Dark Waters West SZ" quantity="1"/>
+                        <unitPlacement unitType="dwarf" territory="Forbidding Peaks" quantity="4"/>
+                        <unitPlacement unitType="heavy_cavalry" territory="WInd Rider Territory" quantity="3"/>
+                        <unitPlacement unitType="giant" territory="Rolling Hills" quantity="1"/>
+                        <unitPlacement unitType="ship" territory="Sea of Kahnbrek SZ" quantity="1" owner="League_Of_Kahnbrek"/>
+                        <unitPlacement unitType="small_ship" territory="Sea of Kahnbrek SZ" quantity="1" owner="League_Of_Kahnbrek"/>
+                        <unitPlacement unitType="troll" territory="Trollmoors North" quantity="2"/>
+                        <unitPlacement unitType="heavy_infantry" territory="Gerik's Hold" quantity="3"/>
+                        <unitPlacement unitType="treant" territory="Screaming Wood" quantity="3"/>
+                        <unitPlacement unitType="light_infantry" territory="Jundland Wastes" quantity="1"/>
+                        <unitPlacement unitType="goblin" territory="Igna" quantity="2"/>
+                        <unitPlacement unitType="dragon" territory="Dragonback Mountains" quantity="1"/>
+                        <unitPlacement unitType="treant" territory="Hidden Lake" quantity="2"/>
+                        <unitPlacement unitType="elf" territory="Glimmering Forest" quantity="2"/>
+                        <unitPlacement unitType="bowman" territory="Loremaster's Library" quantity="5"/>
+                        <unitPlacement unitType="elf" territory="Loremaster's Library" quantity="1"/>
+                </unitInitialize>
+                <resourceInitialize>
+                        <resourceGiven player="Uthgardian_Empire" resource="PUs" quantity="25"/>
+                        <resourceGiven player="Pirates_Of_Razor_Pass" resource="PUs" quantity="25"/>
+                        <resourceGiven player="Dragonfire_Coast_Federation" resource="PUs" quantity="25"/>
+                        <resourceGiven player="Gandar_Republic" resource="PUs" quantity="25"/>
+                        <resourceGiven player="Burusian_Empire" resource="PUs" quantity="25"/>
+                        <resourceGiven player="League_Of_Kahnbrek" resource="PUs" quantity="25"/>
+                </resourceInitialize>
+        </initialize>
+        <propertyList>
+                <property name="Honorable Surrender" value="false" editable="true">
+                        <boolean/>
+                </property>
+                <property name="Low Luck" value="false" editable="true">
+                        <boolean/>
+                </property>
+                <property name="Tech Development" value="false" editable="true">
+                        <boolean/>
+                </property>
+                <property name="LHTR Heavy Bombers" value="false" editable="false">
+                        <boolean/>
+                </property>
+                <property name="Heavy Bomber Dice Rolls" value="2" editable="true">
+                        <number min="2" max="3"/>
+                </property>
+                <property name="Always on AA" value="true" editable="true">
+                        <boolean/>
+                </property>
+                <property name="Kamikaze Airplanes" value="false" editable="false">
+                        <boolean/>
+                </property>
+                <property name="Battleships repair at end of round" value="true" editable="true">
+                        <boolean/>
+                </property>
+                <property name="Display Sea Names" value="false" editable="true">
+                        <boolean/>
+                </property>
+                <property name="WW2V3" value="true" editable="false">
+                        <boolean/>
+                </property>
+                <property name="WW2V3 Tech Model" value="false" editable="false">
+                        <boolean/>
+                </property>
+                <property name="Use Shipyards" value="false" editable="false">
+                        <boolean/>
+                </property>
+                <property name="All Rockets Attack" value="false" editable="false">
+                        <boolean/>
+                </property>
+                <property name="Blitz Through Factories And AA Restricted" value="true" editable="false">
+                        <boolean/>
+                </property>
+                <property name="Roll AA Individually" value="true" editable="false">
+                        <boolean/>
+                </property>
+                <property name="Choose AA Casualties" value="false" editable="false">
+                        <boolean/>
+                </property>
+                <property name="AA Territory Restricted" value="false" editable="false">
+                        <boolean/>
+                </property>
+                <property name="Multiple AA Per Territory" value="true" editable="false">
+                        <boolean/>
+                </property>
+                <property name="Random AA Casualties" value="true" editable="false">
+                        <boolean/>
+                </property>
+                <property name="Partial Amphibious Retreat" value="false" editable="false">
+                        <boolean/>
+                </property>
+                <property name="Shore Bombard Per Ground Unit Restricted" value="true" editable="false">
+                        <boolean/>
+                </property>
+                <property name="Naval Bombard Casualties Return Fire Restricted" value="true" editable="false">
+                        <boolean/>
+                </property>
+                <property name="Hari-Kari Units" value="false" editable="false">
+                        <boolean/>
+                </property>
+                <property name="Allied Air Dependents" value="true" editable="false">
+                        <boolean/>
+                </property>
+                <property name="Surviving Air Move To Land" value="true" editable="false">
+                        <boolean/>
+                </property>
+                <property name="Air Attack Sub Restricted" value="true" editable="false">
+                        <boolean/>
+                </property>
+                <property name="Ignore Transport In Movement" value="true" editable="false">
+                        <boolean/>
+                </property>
+                <property name="Transport Casualties Restricted" value="false" editable="false">
+                        <boolean/>
+                </property>
+                <property name="Unescorted Transport Dies" value="false" editable="false">
+                        <boolean/>
+                </property>
+                <property name="Ignore Sub In Movement" value="true" editable="false">
+                        <boolean/>
+                </property>
+                <property name="Defending Subs Sneak Attack" value="false" editable="false">
+                        <boolean/>
+                </property>
+                <property name="Sub Retreat Before Battle" value="true" editable="false">
+                        <boolean/>
+                </property>
+                <property name="Submersible Subs" value="true" editable="false">
+                        <boolean/>
+                </property>
+                <property name="Sub Control Sea Zone Restricted" value="true" editable="false">
+                        <boolean/>
+                </property>
+                <property name="Previous Units Fight" value="true" editable="false">
+                        <boolean/>
+                </property>
+                <property name="Two hit battleship" value="true" editable="false">
+                        <boolean/>
+                </property>
+                <property name="Produce fighters on carriers" value="true" editable="false">
+                        <boolean/>
+                </property>
+                <property name="Produce new fighters on old carriers" value="true" editable="false">
+                        <boolean/>
+                </property>
+                <property name="Move existing fighters to new carriers" value="false" editable="false">
+                        <boolean/>
+                </property>
+                <property name="Land existing fighters on new carriers" value="true" editable="false">
+                        <boolean/>
+                </property>
+                <property name="Unit Placement In Enemy Seas" value="true" editable="false">
+                        <boolean/>
+                </property>
+                <property name="Territory Turn Limit" value="false" editable="false">
+                        <boolean/>
+                </property>
+                <property name="maxFactoriesPerTerritory" value="1" editable="false"/>
+                <property name="Placement Restricted By Factory" value="true" editable="false">
+                        <boolean/>
+                </property>
+                <property name="SBR Affects Unit Production" value="false" editable="false">
+                        <boolean/>
+                </property>
+                <property name="mapName" value="6 Kingdoms" editable="false"/>
+                <property name="notes">
+                        <value>
+                        <![CDATA[The land of 6 Kingdoms is ripe for the taking!  Armies of elves, dwarves, orcs, trolls, and dragons await your commands! Will you try to conquer the land as a 
+member of the Ironforge Pact using either the mysterious Dragonfire Coast Federation, the swashbuckling Pirates of Razor Pass, or the barbaric Uthgardian Empire?
+Or will you choose to fight on the side of the Falconfall Alliance as the noble Gandar Republic, the diverse League of Kahnbrek, or the expansionistic Burusian Empire?
+Whatever way you choose, the fight will be tough!
+
+special thanks to Panguitch for the unit design.(I borrowed from his Greyhawk Map)
+
+Units (attack, defend, movement, cost) 
+Light Infantry 1,2,2,3 
+Medium Infantry 2,3,2,4 
+Heavy Infantry 3,4,2,5
+  
+Light Cavalry 1,1,4,3 (can blitz)
+Medium Cavalry 2,1,4,4 (can blitz)
+Heavy Cavalry 3,2,4,5 (can blitz)
+ 
+giant 4,5,2,10 (takes two hits to kill) 
+dragon 5,4,8,12 (an air unit, takes two hits to kill)
+bowman 2,2,1,10 (an anti-air unit, can fight, can bombard)
+Small ship 2,2,6,6 (can transport any one unit)
+ship 3,3,6,10 (can transport any two units,takes two hits to kill, can bombard)  
+
+Evil-only units: 
+goblin 2,1,2,3
+hobgoblin 2,3,2,6 (takes two hits to kill) 
+orc 3,2,2,7 (takes two hits to kill)
+ troll 4,3,2,9 (takes two hits to kill)
+  
+Good-only units: 
+halfling 1,3,2,3
+dwarf 2,3,2,6 (takes two hits to kill)
+elf 3,2,2,7 (takes two hits to kill)
+treant 3,4,2,8 (takes two hits to kill)
+ 
+Fortifications are the equivalent of factories and cost 12.
+
+]]>
+                        </value>
+                </property>
+        </propertyList>
+</game>

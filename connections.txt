@@ -1,0 +1,395 @@
+<!-- Territory Connections -->
+<connection t1="Avinosh" t2="Dale Lands"/>
+<connection t1="Avinosh" t2="Develar's Lake"/>
+<connection t1="Avinosh" t2="Pools of Saysha"/>
+<connection t1="Avinosh" t2="Shem"/>
+<connection t1="Barbaric Ocean East SZ" t2="Barbaric Ocean Eastern SZ"/>
+<connection t1="Barbaric Ocean East SZ" t2="Eastwatch"/>
+<connection t1="Barbaric Ocean East SZ" t2="Mozunrath's Tower"/>
+<connection t1="Barbaric Ocean East SZ" t2="Sea of Gandar Western SZ"/>
+<connection t1="Barbaric Ocean Eastern SZ" t2="Barbaric Ocean SZ"/>
+<connection t1="Barbaric Ocean Eastern SZ" t2="Eastwatch"/>
+<connection t1="Barbaric Ocean Eastern SZ" t2="Uthgard"/>
+<connection t1="Barbaric Ocean North SZ" t2="Barbaric Ocean Northern SZ"/>
+<connection t1="Barbaric Ocean North SZ" t2="Evershine Mountains West"/>
+<connection t1="Barbaric Ocean North SZ" t2="Evershine Sea Lower South SZ"/>
+<connection t1="Barbaric Ocean North SZ" t2="Kingdom of the Sea Elves"/>
+<connection t1="Barbaric Ocean North SZ" t2="Neberus"/>
+<connection t1="Barbaric Ocean Northern SZ" t2="Barbaric Ocean SZ"/>
+<connection t1="Barbaric Ocean Northern SZ" t2="Cove of Storms SZ"/>
+<connection t1="Barbaric Ocean Northern SZ" t2="Neberus"/>
+<connection t1="Barbaric Ocean SZ" t2="Cove of Storms SZ"/>
+<connection t1="Bayridge Mountains" t2="Ibadeth City"/>
+<connection t1="Bayridge Mountains" t2="Lonely Plains West"/>
+<connection t1="Bayridge Mountains" t2="Shyamaline's Folley"/>
+<connection t1="Bayridge Mountains" t2="Tabletop Plateau"/>
+<connection t1="Bayridge Mountains" t2="The Ghostly Gulf NE SZ"/>
+<connection t1="Bayridge Mountains" t2="Trollmoors North"/>
+<connection t1="Bellok" t2="Evershine Mountains"/>
+<connection t1="Bellok" t2="Evershine Mountains East"/>
+<connection t1="Bellok" t2="Evershine Mountains North"/>
+<connection t1="Bellok" t2="Pools of Saysha"/>
+<connection t1="Bellok" t2="Ramathorn"/>
+<connection t1="Bellok" t2="Southpass Garrison"/>
+<connection t1="Bellok" t2="Yormuska"/>
+<connection t1="Burning Oasis" t2="Burning Shores"/>
+<connection t1="Burning Oasis" t2="Dragonback Hills"/>
+<connection t1="Burning Oasis" t2="Dragonscar Desert"/>
+<connection t1="Burning Oasis" t2="Jundland Wastes"/>
+<connection t1="Burning Oasis" t2="Scorched Sands"/>
+<connection t1="Burning Oasis" t2="Temple of the Dragon"/>
+<connection t1="Burning Shores" t2="Dragonfire Coast"/>
+<connection t1="Burning Shores" t2="Dragonfire Gulf SZ"/>
+<connection t1="Burning Shores" t2="Jundland Wastes"/>
+<connection t1="Burning Shores" t2="Marafashan"/>
+<connection t1="Burning Shores" t2="Scorched Sands"/>
+<connection t1="Burusia" t2="Evershine Sea Eastern SZ"/>
+<connection t1="Burusia" t2="Evershine Sea SZ"/>
+<connection t1="Burusia" t2="Evershine Sea Southern SZ"/>
+<connection t1="Burusia" t2="Hammerfast"/>
+<connection t1="Burusia" t2="Waterbreak"/>
+<connection t1="Castle Gandar" t2="Igthorn's Pass"/>
+<connection t1="Castle Gandar" t2="Splendid City"/>
+<connection t1="Castle Gandar" t2="Thorgrim"/>
+<connection t1="Cove of Storms SZ" t2="Neberus"/>
+<connection t1="Cove of Storms SZ" t2="Port Elgeth"/>
+<connection t1="Cove of Storms SZ" t2="Uthgard"/>
+<connection t1="Dale Lands" t2="Develar's Lake"/>
+<connection t1="Dale Lands" t2="Hammerfast"/>
+<connection t1="Dale Lands" t2="Waterbreak"/>
+<connection t1="Dark Forest" t2="Dark Waters West SZ"/>
+<connection t1="Dark Forest" t2="Dragonback Hills"/>
+<connection t1="Dark Forest" t2="Dragonback Mountains"/>
+<connection t1="Dark Forest" t2="Dragonfire Sea East SZ"/>
+<connection t1="Dark Forest" t2="Homeland of the Tribe of the Bear"/>
+<connection t1="Dark Forest" t2="Kingdom of Druj"/>
+<connection t1="Dark Forest" t2="WInd Rider Territory"/>
+<connection t1="Dark Waters East SZ" t2="Dark Waters West SZ"/>
+<connection t1="Dark Waters East SZ" t2="Mosquito Marsh"/>
+<connection t1="Dark Waters East SZ" t2="Sea of Kahnbrek West SZ"/>
+<connection t1="Dark Waters West SZ" t2="Dragonfire Sea East SZ"/>
+<connection t1="Dark Waters West SZ" t2="Eastern Lowlands"/>
+<connection t1="Dark Waters West SZ" t2="Homeland of the Tribe of the Bear"/>
+<connection t1="Dark Waters West SZ" t2="Rimms Pass"/>
+<connection t1="Develar's Lake" t2="Bellok"/>
+<connection t1="Develar's Lake" t2="Endowyn"/>
+<connection t1="Develar's Lake" t2="Pools of Saysha"/>
+<connection t1="Develar's Lake" t2="Yormuska"/>
+<connection t1="Dragonback Hills" t2="Dragonback Mountains"/>
+<connection t1="Dragonback Hills" t2="Dragonscar Desert"/>
+<connection t1="Dragonback Hills" t2="Temple of the Dragon"/>
+<connection t1="Dragonback Hills" t2="WInd Rider Territory"/>
+<connection t1="Dragonback Mountains" t2="Dragonfire Sea East SZ"/>
+<connection t1="Dragonback Mountains" t2="Temple of the Dragon"/>
+<connection t1="Dragonfire Coast" t2="Dragonfire Gulf SZ"/>
+<connection t1="Dragonfire Coast" t2="Dragonfire Sea SZ"/>
+<connection t1="Dragonfire Coast" t2="Dragonfire Sea Western SZ"/>
+<connection t1="Dragonfire Coast" t2="Scorched Sands"/>
+<connection t1="Dragonfire Gulf SZ" t2="Dragonfire Sea Western SZ"/>
+<connection t1="Dragonfire Gulf SZ" t2="Evershine Mountains North"/>
+<connection t1="Dragonfire Gulf SZ" t2="Golgatha"/>
+<connection t1="Dragonfire Gulf SZ" t2="Kaligistan"/>
+<connection t1="Dragonfire Gulf SZ" t2="Marafashan"/>
+<connection t1="Dragonfire Sea East SZ" t2="Dragonfire Sea Eastern SZ"/>
+<connection t1="Dragonfire Sea East SZ" t2="Temple of the Dragon"/>
+<connection t1="Dragonfire Sea Eastern SZ" t2="Dragonfire Sea SZ"/>
+<connection t1="Dragonfire Sea Eastern SZ" t2="Scorched Sands"/>
+<connection t1="Dragonfire Sea Eastern SZ" t2="Temple of the Dragon"/>
+<connection t1="Dragonfire Sea SZ" t2="Dragonfire Sea Western SZ"/>
+<connection t1="Dragonfire Sea SZ" t2="Scorched Sands"/>
+<connection t1="Dragonfire Sea West SZ" t2="Dragonfire Sea Western SZ"/>
+<connection t1="Dragonfire Sea West SZ" t2="Evershine Sea East SZ"/>
+<connection t1="Dragonfire Sea West SZ" t2="Sharktooth Villiage"/>
+<connection t1="Dragonfire Sea West SZ" t2="Shem"/>
+<connection t1="Dragonfire Sea Western SZ" t2="Golgatha"/>
+<connection t1="Dragonfire Sea Western SZ" t2="Sharktooth Villiage"/>
+<connection t1="Dragonscar Desert" t2="Egress Forest"/>
+<connection t1="Dragonscar Desert" t2="Jundland Wastes"/>
+<connection t1="Dragonscar Desert" t2="Three Trader's City"/>
+<connection t1="Dragonscar Desert" t2="WInd Rider Territory"/>
+<connection t1="Eastern Lowlands" t2="Dark Waters East SZ"/>
+<connection t1="Eastern Lowlands" t2="Mosquito Marsh"/>
+<connection t1="Eastern Lowlands" t2="Rimms Pass"/>
+<connection t1="Eastern Lowlands" t2="Rolling Hills"/>
+<connection t1="Eastwatch" t2="Mozunrath's Tower"/>
+<connection t1="Eastwatch" t2="Port Elgeth"/>
+<connection t1="Eastwatch" t2="Troll Bog"/>
+<connection t1="Eastwatch" t2="Uthgard"/>
+<connection t1="Eastwatch" t2="West Haven"/>
+<connection t1="Egress Forest" t2="Jundland Wastes"/>
+<connection t1="Egress Forest" t2="Last Respite"/>
+<connection t1="Egress Forest" t2="Three Trader's City"/>
+<connection t1="Endowyn" t2="Evershine Sea South SZ"/>
+<connection t1="Endowyn" t2="Evershine Sea Southern SZ"/>
+<connection t1="Endowyn" t2="Hammerfast"/>
+<connection t1="Endowyn" t2="Yormuska"/>
+<connection t1="Evershine Mountains" t2="Evershine Mountains East"/>
+<connection t1="Evershine Mountains" t2="Howling Canyon"/>
+<connection t1="Evershine Mountains" t2="Southpass Garrison"/>
+<connection t1="Evershine Mountains" t2="Ulfur's Keep"/>
+<connection t1="Evershine Mountains East" t2="Evershine Mountains North"/>
+<connection t1="Evershine Mountains East" t2="Homeland of the Tribe of the Tiger"/>
+<connection t1="Evershine Mountains East" t2="Restful Wood"/>
+<connection t1="Evershine Mountains East" t2="Ulfur's Keep"/>
+<connection t1="Evershine Mountains East" t2="Weeping Valley"/>
+<connection t1="Evershine Mountains North" t2="Golgatha"/>
+<connection t1="Evershine Mountains North" t2="Homeland of the Tribe of the Tiger"/>
+<connection t1="Evershine Mountains North" t2="Kaligistan"/>
+<connection t1="Evershine Mountains North" t2="Pools of Saysha"/>
+<connection t1="Evershine Mountains West" t2="Evershine Sea Lower South SZ"/>
+<connection t1="Evershine Mountains West" t2="Howling Canyon"/>
+<connection t1="Evershine Mountains West" t2="Kingdom of the Sea Elves"/>
+<connection t1="Evershine Mountains West" t2="Loremaster's Library"/>
+<connection t1="Evershine Sea East SZ" t2="Evershine Sea Eastern SZ"/>
+<connection t1="Evershine Sea East SZ" t2="Shem"/>
+<connection t1="Evershine Sea East SZ" t2="Waterbreak"/>
+<connection t1="Evershine Sea Eastern SZ" t2="Evershine Sea SZ"/>
+<connection t1="Evershine Sea Eastern SZ" t2="Waterbreak"/>
+<connection t1="Evershine Sea Lower South SZ" t2="Evershine Sea South SZ"/>
+<connection t1="Evershine Sea Lower South SZ" t2="Loremaster's Library"/>
+<connection t1="Evershine Sea SZ" t2="Evershine Sea Southern SZ"/>
+<connection t1="Evershine Sea South SZ" t2="Evershine Sea Southern SZ"/>
+<connection t1="Evershine Sea South SZ" t2="Ramathorn"/>
+<connection t1="Evershine Sea South SZ" t2="Yormuska"/>
+<connection t1="Evershine Sea Southern SZ" t2="Hammerfast"/>
+<connection t1="Falconfall" t2="Homeland of the Tribe of the Tiger"/>
+<connection t1="Falconfall" t2="Last Respite"/>
+<connection t1="Falconfall" t2="Nation of Krom"/>
+<connection t1="Falconfall" t2="Three Trader's City"/>
+<connection t1="Fearus Hills" t2="Glimmering Forest"/>
+<connection t1="Fearus Hills" t2="Longview"/>
+<connection t1="Fearus Hills" t2="The Blightlands"/>
+<connection t1="Fearus Hills" t2="Troll Bog North"/>
+<connection t1="Fearus Hills" t2="Whispering Wood"/>
+<connection t1="Forbidding Peaks" t2="Greenvale"/>
+<connection t1="Forbidding Peaks" t2="Mozunrath's Tower"/>
+<connection t1="Forbidding Peaks" t2="Sea of Gandar SZ"/>
+<connection t1="Forbidding Peaks" t2="Sea of Gandar Western SZ"/>
+<connection t1="Forbidding Peaks" t2="The Ghostly Gulf South SZ"/>
+<connection t1="Gandar" t2="Igthorn's Pass"/>
+<connection t1="Gandar" t2="Sea of Gandar Eastern SZ"/>
+<connection t1="Gandar" t2="Sea of Gandar SZ"/>
+<connection t1="Gandar" t2="Splendid City"/>
+<connection t1="Gandar" t2="The Ghostly Gulf South SZ"/>
+<connection t1="Gelvazar" t2="Kahnbrek"/>
+<connection t1="Gelvazar" t2="Pulunar"/>
+<connection t1="Gelvazar" t2="Rolling Hills"/>
+<connection t1="Gelvazar" t2="Sea of Kahnbrek Southern SZ"/>
+<connection t1="Gerik's Hold" t2="Gulfport"/>
+<connection t1="Gerik's Hold" t2="Longview"/>
+<connection t1="Gerik's Hold" t2="Restful Wood"/>
+<connection t1="Gerik's Hold" t2="The Blightlands"/>
+<connection t1="Gerik's Hold" t2="The Ghostly Gulf NW SZ"/>
+<connection t1="Gerik's Hold" t2="Weeping Valley"/>
+<connection t1="Gerison" t2="Ocean of Blades North SZ"/>
+<connection t1="Gerison" t2="Pulunar"/>
+<connection t1="Gerison" t2="Sea of Kahnbrek South SZ"/>
+<connection t1="Gerison" t2="The Tower of Xarxos"/>
+<connection t1="Gerison" t2="Wolvesbane Forest"/>
+<connection t1="Glimmering Forest" t2="Kingdom of the Sea Elves"/>
+<connection t1="Glimmering Forest" t2="Longview"/>
+<connection t1="Glimmering Forest" t2="Neberus"/>
+<connection t1="Glimmering Forest" t2="Ulfur's Keep"/>
+<connection t1="Glimmering Forest" t2="West Haven"/>
+<connection t1="Golgatha" t2="Pools of Saysha"/>
+<connection t1="Golgatha" t2="Sharktooth Villiage"/>
+<connection t1="Greenvale" t2="Gulfport"/>
+<connection t1="Greenvale" t2="Mozunrath's Tower"/>
+<connection t1="Greenvale" t2="The Ghostly Gulf South SZ"/>
+<connection t1="Greenvale" t2="Whispering Wood"/>
+<connection t1="Gulfport" t2="The Blightlands"/>
+<connection t1="Gulfport" t2="The Ghostly Gulf SZ"/>
+<connection t1="Gulfport" t2="The Ghostly Gulf South SZ"/>
+<connection t1="Gulfport" t2="Whispering Wood"/>
+<connection t1="Harold" t2="Nation of Krom"/>
+<connection t1="Harold" t2="Shyamaline's Folley"/>
+<connection t1="Harold" t2="The Ghostly Gulf NE SZ"/>
+<connection t1="Harold" t2="Three Trader's City"/>
+<connection t1="Hidden Lake" t2="Homeland of the Tribe of the Bear"/>
+<connection t1="Hidden Lake" t2="Kingdom of Druj"/>
+<connection t1="Hidden Lake" t2="Reopulus"/>
+<connection t1="Hidden Lake" t2="Screaming Wood"/>
+<connection t1="Hidden Lake" t2="Wolvesbane Forest"/>
+<connection t1="High Ridge Caverns" t2="Dark Waters East SZ"/>
+<connection t1="High Ridge Caverns" t2="Dark Waters West SZ"/>
+<connection t1="High Ridge Caverns" t2="Eastern Lowlands"/>
+<connection t1="Homeland of the Tribe of the Bear" t2="Kingdom of Druj"/>
+<connection t1="Homeland of the Tribe of the Bear" t2="Rimms Pass"/>
+<connection t1="Homeland of the Tribe of the Bear" t2="Rolling Hills"/>
+<connection t1="Homeland of the Tribe of the Tiger" t2="Kaligistan"/>
+<connection t1="Homeland of the Tribe of the Tiger" t2="Nation of Krom"/>
+<connection t1="Homeland of the Tribe of the Tiger" t2="Weeping Valley"/>
+<connection t1="Homeland of the Tribe of the Whale" t2="Lonely Plains East"/>
+<connection t1="Homeland of the Tribe of the Whale" t2="Ocean of Blades Gulf SZ"/>
+<connection t1="Homeland of the Tribe of the Whale" t2="Razor Pass"/>
+<connection t1="Homeland of the Tribe of the Whale" t2="Serpent's  Spine Mountains North"/>
+<connection t1="Howling Canyon" t2="Kingdom of the Sea Elves"/>
+<connection t1="Howling Canyon" t2="Southpass Garrison"/>
+<connection t1="Howling Canyon" t2="Ulfur's Keep"/>
+<connection t1="Ibadeth City" t2="Kingdom of Druj"/>
+<connection t1="Ibadeth City" t2="Lonely Plains"/>
+<connection t1="Ibadeth City" t2="Lonely Plains West"/>
+<connection t1="Ibadeth City" t2="Morphimar's Keep"/>
+<connection t1="Ibadeth City" t2="Reopulus"/>
+<connection t1="Ibadeth City" t2="Tabletop Plateau"/>
+<connection t1="Igna" t2="Ocean of Blades Gulf SZ"/>
+<connection t1="Igna" t2="Ocean of Blades SZ"/>
+<connection t1="Igna" t2="Ocean of Blades South SZ"/>
+<connection t1="Igna" t2="Ocean of Blades Southwest SZ"/>
+<connection t1="Igthorn's Pass" t2="Sea of Gandar Eastern SZ"/>
+<connection t1="Igthorn's Pass" t2="Vidor"/>
+<connection t1="Jundland Wastes" t2="Last Respite"/>
+<connection t1="Jundland Wastes" t2="Marafashan"/>
+<connection t1="Kahnbrek" t2="Mosquito Marsh"/>
+<connection t1="Kahnbrek" t2="Sea of Kahnbrek SZ"/>
+<connection t1="Kahnbrek" t2="Sea of Kahnbrek Southern SZ"/>
+<connection t1="Kahnbrek" t2="Sea of Kahnbrek West SZ"/>
+<connection t1="Kaligistan" t2="Last Respite"/>
+<connection t1="Kaligistan" t2="Marafashan"/>
+<connection t1="Kelgar's Pass" t2="Kingdom of Druj"/>
+<connection t1="Kelgar's Pass" t2="Shyamaline's Folley"/>
+<connection t1="Kelgar's Pass" t2="Tabletop Plateau"/>
+<connection t1="Kelgar's Pass" t2="Three Trader's City"/>
+<connection t1="Kelgar's Pass" t2="WInd Rider Territory"/>
+<connection t1="Kingdom of Druj" t2="Reopulus"/>
+<connection t1="Kingdom of Druj" t2="Tabletop Plateau"/>
+<connection t1="Kingdom of Druj" t2="WInd Rider Territory"/>
+<connection t1="Kingdom of the Sea Elves" t2="Neberus"/>
+<connection t1="Kingdom of the Sea Elves" t2="Ulfur's Keep"/>
+<connection t1="Last Respite" t2="Marafashan"/>
+<connection t1="Last Respite" t2="Three Trader's City"/>
+<connection t1="Lonely Plains" t2="Lonely Plains East"/>
+<connection t1="Lonely Plains" t2="Lonely Plains West"/>
+<connection t1="Lonely Plains" t2="Morphimar's Keep"/>
+<connection t1="Lonely Plains" t2="Serpent's  Spine Mountains North"/>
+<connection t1="Lonely Plains East" t2="Morphimar's Keep"/>
+<connection t1="Lonely Plains East" t2="Razor Pass"/>
+<connection t1="Lonely Plains East" t2="Serpent's  Spine Mountains North"/>
+<connection t1="Lonely Plains East" t2="Valgorath"/>
+<connection t1="Lonely Plains West" t2="Serpent's  Spine Mountains North"/>
+<connection t1="Lonely Plains West" t2="Trollmoors North"/>
+<connection t1="Lonely Plains West" t2="Trollmoors South"/>
+<connection t1="Longview" t2="Restful Wood"/>
+<connection t1="Longview" t2="The Blightlands"/>
+<connection t1="Loremaster's Library" t2="Southpass Garrison"/>
+<connection t1="Moonwood" t2="Serpent's  Spine Mountains North"/>
+<connection t1="Moonwood" t2="Serpent's Spine Mountains South"/>
+<connection t1="Moonwood" t2="The Mystic Lake"/>
+<connection t1="Moonwood" t2="Tobruk"/>
+<connection t1="Moonwood" t2="Trollmoors South"/>
+<connection t1="Morphimar's Keep" t2="Reopulus"/>
+<connection t1="Morphimar's Keep" t2="Screaming Wood"/>
+<connection t1="Morphimar's Keep" t2="Valgorath"/>
+<connection t1="Mosquito Marsh" t2="Rolling Hills"/>
+<connection t1="Mosquito Marsh" t2="Sea of Kahnbrek West SZ"/>
+<connection t1="Mozunrath's Tower" t2="Sea of Gandar Western SZ"/>
+<connection t1="Mozunrath's Tower" t2="Troll Bog"/>
+<connection t1="Mozunrath's Tower" t2="Whispering Wood"/>
+<connection t1="Nation of Krom" t2="Gerik's Hold"/>
+<connection t1="Nation of Krom" t2="The Ghostly Gulf NE SZ"/>
+<connection t1="Nation of Krom" t2="The Ghostly Gulf NW SZ"/>
+<connection t1="Neberus" t2="Port Elgeth"/>
+<connection t1="Ocean of Blades Gulf SZ" t2="Ocean of Blades SZ"/>
+<connection t1="Ocean of Blades Gulf SZ" t2="Ocean of Blades Southwest SZ"/>
+<connection t1="Ocean of Blades Gulf SZ" t2="Razor Pass"/>
+<connection t1="Ocean of Blades Gulf SZ" t2="Serpent's  Spine Mountains North"/>
+<connection t1="Ocean of Blades Gulf SZ" t2="Serpent's Spine Mountains"/>
+<connection t1="Ocean of Blades Gulf SZ" t2="Valley of the Fang"/>
+<connection t1="Ocean of Blades North SZ" t2="Ocean of Blades Northern SZ"/>
+<connection t1="Ocean of Blades North SZ" t2="Sea of Kahnbrek South SZ"/>
+<connection t1="Ocean of Blades North SZ" t2="The Tower of Xarxos"/>
+<connection t1="Ocean of Blades Northern SZ" t2="Ocean of Blades SZ"/>
+<connection t1="Ocean of Blades Northern SZ" t2="Razor Pass"/>
+<connection t1="Ocean of Blades Northern SZ" t2="The Tower of Xarxos"/>
+<connection t1="Ocean of Blades Northern SZ" t2="Valgorath"/>
+<connection t1="Ocean of Blades SZ" t2="Ocean of Blades South SZ"/>
+<connection t1="Ocean of Blades SZ" t2="The Isle of Blades"/>
+<connection t1="Ocean of Blades South SZ" t2="Ocean of Blades Southwest SZ"/>
+<connection t1="Ocean of Blades South SZ" t2="The Isle of Blades"/>
+<connection t1="Ocean of Blades Southwest SZ" t2="Semblek"/>
+<connection t1="Ocean of Blades Southwest SZ" t2="The Venom Sea SZ"/>
+<connection t1="Ocean of Blades Southwest SZ" t2="Valley of the Fang"/>
+<connection t1="Ophan'Kes" t2="The Mystic Lake"/>
+<connection t1="Ophan'Kes" t2="The Northern Keep"/>
+<connection t1="Ophan'Kes" t2="Thorgrim"/>
+<connection t1="Ophan'Kes" t2="Tobruk"/>
+<connection t1="Ophan'Kes" t2="Trollmoors South"/>
+<connection t1="Ophan'Kes" t2="Vidor"/>
+<connection t1="Pools of Saysha" t2="Sharktooth Villiage"/>
+<connection t1="Pools of Saysha" t2="Shem"/>
+<connection t1="Port Elgeth" t2="Uthgard"/>
+<connection t1="Port Elgeth" t2="West Haven"/>
+<connection t1="Pulunar" t2="Sea of Kahnbrek South SZ"/>
+<connection t1="Pulunar" t2="Sea of Kahnbrek Southern SZ"/>
+<connection t1="Ramathorn" t2="Loremaster's Library"/>
+<connection t1="Ramathorn" t2="Southpass Garrison"/>
+<connection t1="Ramathorn" t2="Yormuska"/>
+<connection t1="Razor Pass" t2="Ocean of Blades SZ"/>
+<connection t1="Razor Pass" t2="Valgorath"/>
+<connection t1="Reopulus" t2="Screaming Wood"/>
+<connection t1="Restful Wood" t2="Ulfur's Keep"/>
+<connection t1="Restful Wood" t2="Weeping Valley"/>
+<connection t1="Rimms Pass" t2="Rolling Hills"/>
+<connection t1="Rolling Hills" t2="Wolvesbane Forest"/>
+<connection t1="Scorched Sands" t2="Temple of the Dragon"/>
+<connection t1="Screaming Wood" t2="The Tower of Xarxos"/>
+<connection t1="Screaming Wood" t2="Wolvesbane Forest"/>
+<connection t1="Sea of Gandar East SZ" t2="Sea of Gandar Eastern SZ"/>
+<connection t1="Sea of Gandar East SZ" t2="Serpent's Spine Mountains South"/>
+<connection t1="Sea of Gandar East SZ" t2="The Venom Sea SZ"/>
+<connection t1="Sea of Gandar East SZ" t2="Tobruk"/>
+<connection t1="Sea of Gandar East SZ" t2="Vidor"/>
+<connection t1="Sea of Gandar Eastern SZ" t2="Sea of Gandar SZ"/>
+<connection t1="Sea of Gandar Eastern SZ" t2="Vidor"/>
+<connection t1="Sea of Gandar SZ" t2="Sea of Gandar Western SZ"/>
+<connection t1="Sea of Gandar SZ" t2="The Ghostly Gulf South SZ"/>
+<connection t1="Sea of Kahnbrek SZ" t2="Sea of Kahnbrek Southern SZ"/>
+<connection t1="Sea of Kahnbrek SZ" t2="Sea of Kahnbrek West SZ"/>
+<connection t1="Sea of Kahnbrek South SZ" t2="Sea of Kahnbrek Southern SZ"/>
+<connection t1="Serpent's  Spine Mountains North" t2="Serpent's Spine Mountains"/>
+<connection t1="Serpent's  Spine Mountains North" t2="Trollmoors South"/>
+<connection t1="Serpent's Spine Mountains" t2="Moonwood"/>
+<connection t1="Serpent's Spine Mountains" t2="Serpent's Spine Mountains South"/>
+<connection t1="Serpent's Spine Mountains" t2="Valley of the Fang"/>
+<connection t1="Serpent's Spine Mountains South" t2="The Venom Sea SZ"/>
+<connection t1="Serpent's Spine Mountains South" t2="Tobruk"/>
+<connection t1="Serpent's Spine Mountains South" t2="Valley of the Fang"/>
+<connection t1="Sharktooth Villiage" t2="Shem"/>
+<connection t1="Shem" t2="Waterbreak"/>
+<connection t1="Shyamaline's Folley" t2="Tabletop Plateau"/>
+<connection t1="Shyamaline's Folley" t2="The Ghostly Gulf NE SZ"/>
+<connection t1="Shyamaline's Folley" t2="Three Trader's City"/>
+<connection t1="Splendid City" t2="The Ghostly Gulf SZ"/>
+<connection t1="Splendid City" t2="The Ghostly Gulf South SZ"/>
+<connection t1="Splendid City" t2="Thorgrim"/>
+<connection t1="The Blightlands" t2="Whispering Wood"/>
+<connection t1="The Ghostly Gulf NE SZ" t2="The Ghostly Gulf NW SZ"/>
+<connection t1="The Ghostly Gulf NE SZ" t2="The Ghostly Gulf SZ"/>
+<connection t1="The Ghostly Gulf NE SZ" t2="The Northern Keep"/>
+<connection t1="The Ghostly Gulf NE SZ" t2="Thorgrim"/>
+<connection t1="The Ghostly Gulf NE SZ" t2="Trollmoors North"/>
+<connection t1="The Ghostly Gulf NW SZ" t2="The Ghostly Gulf SZ"/>
+<connection t1="The Ghostly Gulf SZ" t2="Gerik's Hold"/>
+<connection t1="The Ghostly Gulf SZ" t2="The Ghostly Gulf South SZ"/>
+<connection t1="The Ghostly Gulf SZ" t2="The Haunted Island"/>
+<connection t1="The Ghostly Gulf SZ" t2="Thorgrim"/>
+<connection t1="The Haunted Island" t2="The Ghostly Gulf NE SZ"/>
+<connection t1="The Haunted Island" t2="The Ghostly Gulf NW SZ"/>
+<connection t1="The Mystic Lake" t2="Tobruk"/>
+<connection t1="The Northern Keep" t2="Thorgrim"/>
+<connection t1="The Northern Keep" t2="Trollmoors North"/>
+<connection t1="The Northern Keep" t2="Trollmoors South"/>
+<connection t1="The Tower of Xarxos" t2="Valgorath"/>
+<connection t1="The Tower of Xarxos" t2="Wolvesbane Forest"/>
+<connection t1="The Venom Sea SZ" t2="Valley of the Fang"/>
+<connection t1="Thorgrim" t2="Vidor"/>
+<connection t1="Three Trader's City" t2="WInd Rider Territory"/>
+<connection t1="Tobruk" t2="Vidor"/>
+<connection t1="Troll Bog" t2="Troll Bog North"/>
+<connection t1="Troll Bog" t2="West Haven"/>
+<connection t1="Troll Bog" t2="Whispering Wood"/>
+<connection t1="Troll Bog North" t2="West Haven"/>
+<connection t1="Troll Bog North" t2="Whispering Wood"/>
+<connection t1="Trollmoors North" t2="Trollmoors South"/>
+<connection t1="Uthgard" t2="Barbaric Ocean SZ"/>
+<connection t1="Wolvesbane Forest" t2="Pulunar"/>

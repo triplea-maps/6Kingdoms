@@ -1,0 +1,5 @@
+map_name: 6Kingdoms
+games:
+- game_name: 6 Kingdoms
+  file_name: 6 Kingdoms.xml
+version: 0
